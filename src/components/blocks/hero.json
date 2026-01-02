@@ -21,6 +21,11 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "cta": {
+      "type": "component",
+      "component": "shared.cta",
+      "repeatable": false
     }
   },
   "config": {}

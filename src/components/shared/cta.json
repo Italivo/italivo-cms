@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_ctas",
+  "info": {
+    "displayName": "Cta",
+    "icon": "bell"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "component": "shared.link",
+      "repeatable": false,
+      "required": true
+    },
+    "variant": {
+      "type": "enumeration",
+      "required": true,
+      "default": "primary",
+      "enum": [
+        "primary",
+        "accent"
+      ]
+    }
+  },
+  "config": {}
+}
