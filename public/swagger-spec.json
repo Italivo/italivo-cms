@@ -141,7 +141,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2025-12-23T15:06:53.228Z",
+                          "default": "2026-01-04T18:12:13.532Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -299,7 +299,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2025-12-23T15:06:53.232Z",
+                          "default": "2026-01-04T18:12:13.537Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -356,7 +356,7 @@
                     "properties": {
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2025-12-23T15:06:53.231Z",
+                        "default": "2026-01-04T18:12:13.536Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -489,7 +489,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2025-12-23T15:06:53.235Z",
+                          "default": "2026-01-04T18:12:13.539Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -839,7 +839,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2025-12-23T15:06:53.244Z",
+                            "default": "2026-01-04T18:12:13.544Z",
                             "type": "string"
                           }
                         },
@@ -1000,7 +1000,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2025-12-23T15:06:53.250Z",
+                          "default": "2026-01-04T18:12:13.552Z",
                           "type": "string"
                         }
                       },
@@ -1061,7 +1061,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2025-12-23T15:06:53.598Z",
+                        "default": "2026-01-04T18:12:13.922Z",
                         "type": "string"
                       }
                     },
@@ -1314,7 +1314,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2025-12-23T15:06:53.247Z",
+                          "default": "2026-01-04T18:12:13.549Z",
                           "type": "string"
                         }
                       },
@@ -1486,7 +1486,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2025-12-23T15:06:53.253Z",
+                          "default": "2026-01-04T18:12:13.554Z",
                           "type": "string"
                         }
                       },
@@ -1547,7 +1547,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2025-12-23T15:06:53.252Z",
+                        "default": "2026-01-04T18:12:13.554Z",
                         "type": "string"
                       }
                     },
@@ -1715,7 +1715,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2025-12-23T15:06:53.255Z",
+                          "default": "2026-01-04T18:12:13.556Z",
                           "type": "string"
                         }
                       },

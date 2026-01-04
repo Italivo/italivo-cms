@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_blocks_icon_cards",
+  "info": {
+    "displayName": "Icon Cards",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "iconCards": {
+      "type": "component",
+      "component": "shared.icon-card",
+      "repeatable": true,
+      "required": true,
+      "min": 1
+    },
+    "background": {
+      "type": "enumeration",
+      "required": true,
+      "default": "secondary",
+      "enum": [
+        "transparent",
+        "secondary"
+      ]
+    }
+  },
+  "config": {}
+}

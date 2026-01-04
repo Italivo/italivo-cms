@@ -478,7 +478,7 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    blocks: Schema.Attribute.DynamicZone<['blocks.hero']> &
+    blocks: Schema.Attribute.DynamicZone<['blocks.hero', 'blocks.icon-cards']> &
       Schema.Attribute.Required &
       Schema.Attribute.SetMinMax<
         {
