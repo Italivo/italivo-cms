@@ -1,5 +1,27 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface BlocksContentWithImage extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_content_with_images';
+  info: {
+    displayName: 'Content with Image';
+    icon: 'layout';
+  };
+  attributes: {
+    background: Schema.Attribute.Enumeration<['transparent', 'secondary']> &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'transparent'>;
+    content: Schema.Attribute.RichText & Schema.Attribute.Required;
+    image: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
+    imagePositionDesktop: Schema.Attribute.Enumeration<['left', 'right']> &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'right'>;
+    imagePositionMobile: Schema.Attribute.Enumeration<['top', 'bottom']> &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'top'>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface BlocksHero extends Struct.ComponentSchema {
   collectionName: 'components_blocks_heroes';
   info: {
@@ -86,6 +108,7 @@ export interface SharedLink extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'blocks.content-with-image': BlocksContentWithImage;
       'blocks.hero': BlocksHero;
       'blocks.icon-cards': BlocksIconCards;
       'shared.cta': SharedCta;

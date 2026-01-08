@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_blocks_content_with_images",
+  "info": {
+    "displayName": "Content with Image",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imagePositionMobile": {
+      "type": "enumeration",
+      "required": true,
+      "default": "top",
+      "enum": [
+        "top",
+        "bottom"
+      ]
+    },
+    "imagePositionDesktop": {
+      "type": "enumeration",
+      "required": true,
+      "default": "right",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "background": {
+      "type": "enumeration",
+      "required": true,
+      "default": "transparent",
+      "enum": [
+        "transparent",
+        "secondary"
+      ]
+    }
+  },
+  "config": {}
+}

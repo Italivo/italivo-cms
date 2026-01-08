@@ -15,7 +15,8 @@
       "type": "dynamiczone",
       "components": [
         "blocks.hero",
-        "blocks.icon-cards"
+        "blocks.icon-cards",
+        "blocks.content-with-image"
       ],
       "required": true,
       "min": 1
