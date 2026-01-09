@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_testimonials",
+  "info": {
+    "displayName": "Testimonials",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "background": {
+      "type": "enumeration",
+      "required": true,
+      "default": "transparent",
+      "enum": [
+        "transparent",
+        "secondary"
+      ]
+    }
+  },
+  "config": {}
+}

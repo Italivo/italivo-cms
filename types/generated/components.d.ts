@@ -59,6 +59,20 @@ export interface BlocksIconCards extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksTestimonials extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_testimonials';
+  info: {
+    displayName: 'Testimonials';
+    icon: 'star';
+  };
+  attributes: {
+    background: Schema.Attribute.Enumeration<['transparent', 'secondary']> &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'transparent'>;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface SharedCta extends Struct.ComponentSchema {
   collectionName: 'components_shared_ctas';
   info: {
@@ -111,6 +125,7 @@ declare module '@strapi/strapi' {
       'blocks.content-with-image': BlocksContentWithImage;
       'blocks.hero': BlocksHero;
       'blocks.icon-cards': BlocksIconCards;
+      'blocks.testimonials': BlocksTestimonials;
       'shared.cta': SharedCta;
       'shared.icon-card': SharedIconCard;
       'shared.link': SharedLink;

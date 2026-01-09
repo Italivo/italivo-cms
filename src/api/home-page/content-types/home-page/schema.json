@@ -16,7 +16,8 @@
       "components": [
         "blocks.hero",
         "blocks.icon-cards",
-        "blocks.content-with-image"
+        "blocks.content-with-image",
+        "blocks.testimonials"
       ],
       "required": true,
       "min": 1
