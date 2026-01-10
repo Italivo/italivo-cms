@@ -22,6 +22,23 @@ export interface BlocksContentWithImage extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksFeatureList extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_feature_lists';
+  info: {
+    displayName: 'Feature List';
+    icon: 'layout';
+  };
+  attributes: {
+    background: Schema.Attribute.Enumeration<['transparent', 'secondary']> &
+      Schema.Attribute.DefaultTo<'transparent'>;
+    features: Schema.Attribute.Component<'shared.feature', true> &
+      Schema.Attribute.Required;
+    image: Schema.Attribute.Media<'images'>;
+    subtitle: Schema.Attribute.Text;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface BlocksHero extends Struct.ComponentSchema {
   collectionName: 'components_blocks_heroes';
   info: {
@@ -88,6 +105,18 @@ export interface SharedCta extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedFeature extends Struct.ComponentSchema {
+  collectionName: 'components_shared_features';
+  info: {
+    displayName: 'Feature';
+    icon: 'lightbulb';
+  };
+  attributes: {
+    description: Schema.Attribute.Text & Schema.Attribute.Required;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface SharedIconCard extends Struct.ComponentSchema {
   collectionName: 'components_shared_icon_cards';
   info: {
@@ -123,10 +152,12 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'blocks.content-with-image': BlocksContentWithImage;
+      'blocks.feature-list': BlocksFeatureList;
       'blocks.hero': BlocksHero;
       'blocks.icon-cards': BlocksIconCards;
       'blocks.testimonials': BlocksTestimonials;
       'shared.cta': SharedCta;
+      'shared.feature': SharedFeature;
       'shared.icon-card': SharedIconCard;
       'shared.link': SharedLink;
     }

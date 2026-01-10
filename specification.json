@@ -1,7 +1,7 @@
 {
   "openapi": "3.1.0",
   "x-powered-by": "strapi",
-  "x-strapi-version": "5.33.0",
+  "x-strapi-version": "5.33.2",
   "info": {
     "title": "italivo-cms",
     "description": "API documentation for italivo-cms v0.1.0",
@@ -18,7 +18,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -40,13 +39,11 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": [
@@ -54,7 +51,6 @@
                   ]
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -73,7 +69,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Filters to apply to the query",
               "type": "object",
               "propertyNames": {
                 "type": "string",
@@ -93,7 +88,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -116,7 +110,6 @@
                       "type": "object",
                       "properties": {
                         "documentId": {
-                          "description": "The document ID, represented by a UUID",
                           "type": "string",
                           "format": "uuid",
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -132,20 +125,16 @@
                           ]
                         },
                         "createdAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "updatedAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "publishedAt": {
-                          "description": "A datetime field",
-                          "default": "2026-01-09T16:25:53.712Z",
+                          "default": "2026-01-10T13:24:16.181Z",
                           "type": "string"
                         },
                         "blocks": {
-                          "description": "A dynamic zone field",
                           "type": "array",
                           "items": {}
                         }
@@ -196,7 +185,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -218,13 +206,11 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": [
@@ -232,7 +218,6 @@
                   ]
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -251,7 +236,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -274,7 +258,6 @@
                       "type": "object",
                       "properties": {
                         "documentId": {
-                          "description": "The document ID, represented by a UUID",
                           "type": "string",
                           "format": "uuid",
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -290,20 +273,16 @@
                           ]
                         },
                         "createdAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "updatedAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "publishedAt": {
-                          "description": "A datetime field",
-                          "default": "2026-01-09T16:25:53.720Z",
+                          "default": "2026-01-10T13:24:16.188Z",
                           "type": "string"
                         },
                         "blocks": {
-                          "description": "A dynamic zone field",
                           "type": "array",
                           "items": {}
                         }
@@ -355,12 +334,10 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "description": "A datetime field",
-                        "default": "2026-01-09T16:25:53.719Z",
+                        "default": "2026-01-10T13:24:16.186Z",
                         "type": "string"
                       },
                       "blocks": {
-                        "description": "A dynamic zone field",
                         "type": "array",
                         "items": {}
                       }
@@ -386,7 +363,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -408,13 +384,11 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": [
@@ -422,7 +396,6 @@
                   ]
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -441,7 +414,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -464,7 +436,6 @@
                       "type": "object",
                       "properties": {
                         "documentId": {
-                          "description": "The document ID, represented by a UUID",
                           "type": "string",
                           "format": "uuid",
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -480,20 +451,16 @@
                           ]
                         },
                         "createdAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "updatedAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "publishedAt": {
-                          "description": "A datetime field",
-                          "default": "2026-01-09T16:25:53.723Z",
+                          "default": "2026-01-10T13:24:16.191Z",
                           "type": "string"
                         },
                         "blocks": {
-                          "description": "A dynamic zone field",
                           "type": "array",
                           "items": {}
                         }
@@ -546,7 +513,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -568,7 +534,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Filters to apply to the query",
               "type": "object",
               "propertyNames": {
                 "type": "string",
@@ -600,13 +565,11 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Pagination parameters",
               "allOf": [
                 {
                   "type": "object",
                   "properties": {
                     "withCount": {
-                      "description": "Include total count in response",
                       "type": "boolean"
                     }
                   },
@@ -615,17 +578,14 @@
                 {
                   "anyOf": [
                     {
-                      "description": "Page-based pagination",
                       "type": "object",
                       "properties": {
                         "page": {
-                          "description": "Page number (1-based)",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
                         },
                         "pageSize": {
-                          "description": "Number of entries per page",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
@@ -638,17 +598,14 @@
                       "additionalProperties": false
                     },
                     {
-                      "description": "Offset-based pagination",
                       "type": "object",
                       "properties": {
                         "start": {
-                          "description": "Number of entries to skip",
                           "type": "integer",
                           "minimum": 0,
                           "maximum": 9007199254740991
                         },
                         "limit": {
-                          "description": "Maximum number of entries to return",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
@@ -672,7 +629,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Sort the result",
               "anyOf": [
                 {
                   "type": "string",
@@ -752,19 +708,16 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": []
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -781,7 +734,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -806,7 +758,6 @@
                         "type": "object",
                         "properties": {
                           "documentId": {
-                            "description": "The document ID, represented by a UUID",
                             "type": "string",
                             "format": "uuid",
                             "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -822,24 +773,19 @@
                             ]
                           },
                           "title": {
-                            "description": "A string field",
                             "type": "string"
                           },
                           "slug": {
-                            "description": "A UID field",
                             "type": "string"
                           },
                           "createdAt": {
-                            "description": "A datetime field",
                             "type": "string"
                           },
                           "updatedAt": {
-                            "description": "A datetime field",
                             "type": "string"
                           },
                           "publishedAt": {
-                            "description": "A datetime field",
-                            "default": "2026-01-09T16:25:53.730Z",
+                            "default": "2026-01-10T13:24:16.198Z",
                             "type": "string"
                           }
                         },
@@ -891,7 +837,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -915,19 +860,16 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": []
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -944,7 +886,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -967,7 +908,6 @@
                       "type": "object",
                       "properties": {
                         "documentId": {
-                          "description": "The document ID, represented by a UUID",
                           "type": "string",
                           "format": "uuid",
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -983,24 +923,19 @@
                           ]
                         },
                         "title": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "slug": {
-                          "description": "A UID field",
                           "type": "string"
                         },
                         "createdAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "updatedAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "publishedAt": {
-                          "description": "A datetime field",
-                          "default": "2026-01-09T16:25:53.739Z",
+                          "default": "2026-01-10T13:24:16.206Z",
                           "type": "string"
                         }
                       },
@@ -1052,16 +987,13 @@
                     "type": "object",
                     "properties": {
                       "title": {
-                        "description": "A string field",
                         "type": "string"
                       },
                       "slug": {
-                        "description": "A UID field",
                         "type": "string"
                       },
                       "publishedAt": {
-                        "description": "A datetime field",
-                        "default": "2026-01-09T16:25:54.098Z",
+                        "default": "2026-01-10T13:24:16.600Z",
                         "type": "string"
                       }
                     },
@@ -1093,7 +1025,6 @@
             "required": true,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The document ID, represented by a UUID",
               "type": "string",
               "format": "uuid",
               "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -1105,7 +1036,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -1129,19 +1059,16 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": []
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -1158,7 +1085,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Filters to apply to the query",
               "type": "object",
               "propertyNames": {
                 "type": "string",
@@ -1180,7 +1106,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Sort the result",
               "anyOf": [
                 {
                   "type": "string",
@@ -1258,7 +1183,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -1281,7 +1205,6 @@
                       "type": "object",
                       "properties": {
                         "documentId": {
-                          "description": "The document ID, represented by a UUID",
                           "type": "string",
                           "format": "uuid",
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -1297,24 +1220,19 @@
                           ]
                         },
                         "title": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "slug": {
-                          "description": "A UID field",
                           "type": "string"
                         },
                         "createdAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "updatedAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "publishedAt": {
-                          "description": "A datetime field",
-                          "default": "2026-01-09T16:25:53.733Z",
+                          "default": "2026-01-10T13:24:16.202Z",
                           "type": "string"
                         }
                       },
@@ -1365,7 +1283,6 @@
             "required": true,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The document ID, represented by a UUID",
               "type": "string",
               "format": "uuid",
               "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -1377,7 +1294,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -1401,19 +1317,16 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": []
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -1430,7 +1343,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -1453,7 +1365,6 @@
                       "type": "object",
                       "properties": {
                         "documentId": {
-                          "description": "The document ID, represented by a UUID",
                           "type": "string",
                           "format": "uuid",
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -1469,24 +1380,19 @@
                           ]
                         },
                         "title": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "slug": {
-                          "description": "A UID field",
                           "type": "string"
                         },
                         "createdAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "updatedAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "publishedAt": {
-                          "description": "A datetime field",
-                          "default": "2026-01-09T16:25:53.743Z",
+                          "default": "2026-01-10T13:24:16.211Z",
                           "type": "string"
                         }
                       },
@@ -1538,16 +1444,13 @@
                     "type": "object",
                     "properties": {
                       "title": {
-                        "description": "A string field",
                         "type": "string"
                       },
                       "slug": {
-                        "description": "A UID field",
                         "type": "string"
                       },
                       "publishedAt": {
-                        "description": "A datetime field",
-                        "default": "2026-01-09T16:25:53.741Z",
+                        "default": "2026-01-10T13:24:16.208Z",
                         "type": "string"
                       }
                     },
@@ -1572,7 +1475,6 @@
             "required": true,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The document ID, represented by a UUID",
               "type": "string",
               "format": "uuid",
               "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -1584,7 +1486,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -1608,19 +1509,16 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": []
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -1637,7 +1535,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Filters to apply to the query",
               "type": "object",
               "propertyNames": {
                 "type": "string",
@@ -1659,7 +1556,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -1682,7 +1578,6 @@
                       "type": "object",
                       "properties": {
                         "documentId": {
-                          "description": "The document ID, represented by a UUID",
                           "type": "string",
                           "format": "uuid",
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -1698,24 +1593,19 @@
                           ]
                         },
                         "title": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "slug": {
-                          "description": "A UID field",
                           "type": "string"
                         },
                         "createdAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "updatedAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "publishedAt": {
-                          "description": "A datetime field",
-                          "default": "2026-01-09T16:25:53.746Z",
+                          "default": "2026-01-10T13:24:16.214Z",
                           "type": "string"
                         }
                       },
@@ -1768,7 +1658,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -1791,7 +1680,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Filters to apply to the query",
               "type": "object",
               "propertyNames": {
                 "type": "string",
@@ -1824,13 +1712,11 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Pagination parameters",
               "allOf": [
                 {
                   "type": "object",
                   "properties": {
                     "withCount": {
-                      "description": "Include total count in response",
                       "type": "boolean"
                     }
                   },
@@ -1839,17 +1725,14 @@
                 {
                   "anyOf": [
                     {
-                      "description": "Page-based pagination",
                       "type": "object",
                       "properties": {
                         "page": {
-                          "description": "Page number (1-based)",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
                         },
                         "pageSize": {
-                          "description": "Number of entries per page",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
@@ -1862,17 +1745,14 @@
                       "additionalProperties": false
                     },
                     {
-                      "description": "Offset-based pagination",
                       "type": "object",
                       "properties": {
                         "start": {
-                          "description": "Number of entries to skip",
                           "type": "integer",
                           "minimum": 0,
                           "maximum": 9007199254740991
                         },
                         "limit": {
-                          "description": "Maximum number of entries to return",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
@@ -1896,7 +1776,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Sort the result",
               "anyOf": [
                 {
                   "type": "string",
@@ -1980,13 +1859,11 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": [
@@ -1994,7 +1871,6 @@
                   ]
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -2013,7 +1889,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -2038,7 +1913,6 @@
                         "type": "object",
                         "properties": {
                           "documentId": {
-                            "description": "The document ID, represented by a UUID",
                             "type": "string",
                             "format": "uuid",
                             "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -2054,33 +1928,109 @@
                             ]
                           },
                           "name": {
-                            "description": "A string field",
                             "type": "string"
                           },
                           "role": {
-                            "description": "A string field",
                             "type": "string"
                           },
                           "quote": {
-                            "description": "A text field",
                             "type": "string"
                           },
                           "createdAt": {
-                            "description": "A datetime field",
                             "type": "string"
                           },
                           "updatedAt": {
-                            "description": "A datetime field",
                             "type": "string"
                           },
                           "publishedAt": {
-                            "description": "A datetime field",
-                            "default": "2026-01-09T16:25:53.752Z",
+                            "default": "2026-01-10T13:24:16.220Z",
                             "type": "string"
                           },
                           "avatar": {
-                            "description": "A media field",
-                            "$ref": "#/components/schemas/PluginUploadFileDocument"
+                            "type": "object",
+                            "properties": {
+                              "documentId": {
+                                "type": "string",
+                                "format": "uuid",
+                                "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                              },
+                              "id": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "number"
+                                  }
+                                ]
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "alternativeText": {
+                                "type": "string"
+                              },
+                              "caption": {
+                                "type": "string"
+                              },
+                              "width": {
+                                "type": "integer",
+                                "minimum": -9007199254740991,
+                                "maximum": 9007199254740991
+                              },
+                              "height": {
+                                "type": "integer",
+                                "minimum": -9007199254740991,
+                                "maximum": 9007199254740991
+                              },
+                              "formats": {},
+                              "hash": {
+                                "type": "string"
+                              },
+                              "ext": {
+                                "type": "string"
+                              },
+                              "mime": {
+                                "type": "string"
+                              },
+                              "size": {
+                                "type": "number"
+                              },
+                              "url": {
+                                "type": "string"
+                              },
+                              "previewUrl": {
+                                "type": "string"
+                              },
+                              "provider": {
+                                "type": "string"
+                              },
+                              "provider_metadata": {},
+                              "createdAt": {
+                                "type": "string"
+                              },
+                              "updatedAt": {
+                                "type": "string"
+                              },
+                              "publishedAt": {
+                                "default": "2026-01-10T13:24:16.224Z",
+                                "type": "string"
+                              },
+                              "related": {}
+                            },
+                            "required": [
+                              "documentId",
+                              "id",
+                              "name",
+                              "hash",
+                              "mime",
+                              "size",
+                              "url",
+                              "provider",
+                              "publishedAt",
+                              "related"
+                            ],
+                            "additionalProperties": false
                           }
                         },
                         "required": [
@@ -2133,7 +2083,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -2158,13 +2107,11 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": [
@@ -2172,7 +2119,6 @@
                   ]
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -2191,7 +2137,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -2214,7 +2159,6 @@
                       "type": "object",
                       "properties": {
                         "documentId": {
-                          "description": "The document ID, represented by a UUID",
                           "type": "string",
                           "format": "uuid",
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -2230,33 +2174,109 @@
                           ]
                         },
                         "name": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "role": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "quote": {
-                          "description": "A text field",
                           "type": "string"
                         },
                         "createdAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "updatedAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "publishedAt": {
-                          "description": "A datetime field",
-                          "default": "2026-01-09T16:25:53.768Z",
+                          "default": "2026-01-10T13:24:16.231Z",
                           "type": "string"
                         },
                         "avatar": {
-                          "description": "A media field",
-                          "$ref": "#/components/schemas/PluginUploadFileDocument"
+                          "type": "object",
+                          "properties": {
+                            "documentId": {
+                              "type": "string",
+                              "format": "uuid",
+                              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                            },
+                            "id": {
+                              "anyOf": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "number"
+                                }
+                              ]
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "alternativeText": {
+                              "type": "string"
+                            },
+                            "caption": {
+                              "type": "string"
+                            },
+                            "width": {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            "height": {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            "formats": {},
+                            "hash": {
+                              "type": "string"
+                            },
+                            "ext": {
+                              "type": "string"
+                            },
+                            "mime": {
+                              "type": "string"
+                            },
+                            "size": {
+                              "type": "number"
+                            },
+                            "url": {
+                              "type": "string"
+                            },
+                            "previewUrl": {
+                              "type": "string"
+                            },
+                            "provider": {
+                              "type": "string"
+                            },
+                            "provider_metadata": {},
+                            "createdAt": {
+                              "type": "string"
+                            },
+                            "updatedAt": {
+                              "type": "string"
+                            },
+                            "publishedAt": {
+                              "default": "2026-01-10T13:24:16.224Z",
+                              "type": "string"
+                            },
+                            "related": {}
+                          },
+                          "required": [
+                            "documentId",
+                            "id",
+                            "name",
+                            "hash",
+                            "mime",
+                            "size",
+                            "url",
+                            "provider",
+                            "publishedAt",
+                            "related"
+                          ],
+                          "additionalProperties": false
                         }
                       },
                       "required": [
@@ -2309,25 +2329,19 @@
                     "type": "object",
                     "properties": {
                       "name": {
-                        "description": "A string field",
                         "type": "string"
                       },
                       "role": {
-                        "description": "A string field",
                         "type": "string"
                       },
                       "quote": {
-                        "description": "A text field",
                         "type": "string"
                       },
                       "publishedAt": {
-                        "description": "A datetime field",
-                        "default": "2026-01-09T16:25:53.766Z",
+                        "default": "2026-01-10T13:24:16.230Z",
                         "type": "string"
                       },
-                      "avatar": {
-                        "description": "A media field"
-                      }
+                      "avatar": {}
                     },
                     "required": [
                       "name",
@@ -2359,7 +2373,6 @@
             "required": true,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The document ID, represented by a UUID",
               "type": "string",
               "format": "uuid",
               "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -2371,7 +2384,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -2396,13 +2408,11 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": [
@@ -2410,7 +2420,6 @@
                   ]
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -2429,7 +2438,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Filters to apply to the query",
               "type": "object",
               "propertyNames": {
                 "type": "string",
@@ -2452,7 +2460,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Sort the result",
               "anyOf": [
                 {
                   "type": "string",
@@ -2534,7 +2541,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -2557,7 +2563,6 @@
                       "type": "object",
                       "properties": {
                         "documentId": {
-                          "description": "The document ID, represented by a UUID",
                           "type": "string",
                           "format": "uuid",
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -2573,33 +2578,109 @@
                           ]
                         },
                         "name": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "role": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "quote": {
-                          "description": "A text field",
                           "type": "string"
                         },
                         "createdAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "updatedAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "publishedAt": {
-                          "description": "A datetime field",
-                          "default": "2026-01-09T16:25:53.764Z",
+                          "default": "2026-01-10T13:24:16.228Z",
                           "type": "string"
                         },
                         "avatar": {
-                          "description": "A media field",
-                          "$ref": "#/components/schemas/PluginUploadFileDocument"
+                          "type": "object",
+                          "properties": {
+                            "documentId": {
+                              "type": "string",
+                              "format": "uuid",
+                              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                            },
+                            "id": {
+                              "anyOf": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "number"
+                                }
+                              ]
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "alternativeText": {
+                              "type": "string"
+                            },
+                            "caption": {
+                              "type": "string"
+                            },
+                            "width": {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            "height": {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            "formats": {},
+                            "hash": {
+                              "type": "string"
+                            },
+                            "ext": {
+                              "type": "string"
+                            },
+                            "mime": {
+                              "type": "string"
+                            },
+                            "size": {
+                              "type": "number"
+                            },
+                            "url": {
+                              "type": "string"
+                            },
+                            "previewUrl": {
+                              "type": "string"
+                            },
+                            "provider": {
+                              "type": "string"
+                            },
+                            "provider_metadata": {},
+                            "createdAt": {
+                              "type": "string"
+                            },
+                            "updatedAt": {
+                              "type": "string"
+                            },
+                            "publishedAt": {
+                              "default": "2026-01-10T13:24:16.224Z",
+                              "type": "string"
+                            },
+                            "related": {}
+                          },
+                          "required": [
+                            "documentId",
+                            "id",
+                            "name",
+                            "hash",
+                            "mime",
+                            "size",
+                            "url",
+                            "provider",
+                            "publishedAt",
+                            "related"
+                          ],
+                          "additionalProperties": false
                         }
                       },
                       "required": [
@@ -2651,7 +2732,6 @@
             "required": true,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The document ID, represented by a UUID",
               "type": "string",
               "format": "uuid",
               "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -2663,7 +2743,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -2688,13 +2767,11 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": [
@@ -2702,7 +2779,6 @@
                   ]
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -2721,7 +2797,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -2744,7 +2819,6 @@
                       "type": "object",
                       "properties": {
                         "documentId": {
-                          "description": "The document ID, represented by a UUID",
                           "type": "string",
                           "format": "uuid",
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -2760,33 +2834,109 @@
                           ]
                         },
                         "name": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "role": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "quote": {
-                          "description": "A text field",
                           "type": "string"
                         },
                         "createdAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "updatedAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "publishedAt": {
-                          "description": "A datetime field",
-                          "default": "2026-01-09T16:25:53.772Z",
+                          "default": "2026-01-10T13:24:16.234Z",
                           "type": "string"
                         },
                         "avatar": {
-                          "description": "A media field",
-                          "$ref": "#/components/schemas/PluginUploadFileDocument"
+                          "type": "object",
+                          "properties": {
+                            "documentId": {
+                              "type": "string",
+                              "format": "uuid",
+                              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                            },
+                            "id": {
+                              "anyOf": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "number"
+                                }
+                              ]
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "alternativeText": {
+                              "type": "string"
+                            },
+                            "caption": {
+                              "type": "string"
+                            },
+                            "width": {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            "height": {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            "formats": {},
+                            "hash": {
+                              "type": "string"
+                            },
+                            "ext": {
+                              "type": "string"
+                            },
+                            "mime": {
+                              "type": "string"
+                            },
+                            "size": {
+                              "type": "number"
+                            },
+                            "url": {
+                              "type": "string"
+                            },
+                            "previewUrl": {
+                              "type": "string"
+                            },
+                            "provider": {
+                              "type": "string"
+                            },
+                            "provider_metadata": {},
+                            "createdAt": {
+                              "type": "string"
+                            },
+                            "updatedAt": {
+                              "type": "string"
+                            },
+                            "publishedAt": {
+                              "default": "2026-01-10T13:24:16.224Z",
+                              "type": "string"
+                            },
+                            "related": {}
+                          },
+                          "required": [
+                            "documentId",
+                            "id",
+                            "name",
+                            "hash",
+                            "mime",
+                            "size",
+                            "url",
+                            "provider",
+                            "publishedAt",
+                            "related"
+                          ],
+                          "additionalProperties": false
                         }
                       },
                       "required": [
@@ -2839,25 +2989,19 @@
                     "type": "object",
                     "properties": {
                       "name": {
-                        "description": "A string field",
                         "type": "string"
                       },
                       "role": {
-                        "description": "A string field",
                         "type": "string"
                       },
                       "quote": {
-                        "description": "A text field",
                         "type": "string"
                       },
                       "publishedAt": {
-                        "description": "A datetime field",
-                        "default": "2026-01-09T16:25:53.770Z",
+                        "default": "2026-01-10T13:24:16.233Z",
                         "type": "string"
                       },
-                      "avatar": {
-                        "description": "A media field"
-                      }
+                      "avatar": {}
                     },
                     "additionalProperties": false
                   }
@@ -2880,7 +3024,6 @@
             "required": true,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The document ID, represented by a UUID",
               "type": "string",
               "format": "uuid",
               "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -2892,7 +3035,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
               "readOnly": true,
               "type": "array",
               "items": {
@@ -2917,13 +3059,11 @@
               "$schema": "https://json-schema.org/draft/2020-12/schema",
               "anyOf": [
                 {
-                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
                   "readOnly": true,
                   "type": "string",
                   "const": "*"
                 },
                 {
-                  "description": "Populate a single relation, component, file, or dynamic zone",
                   "readOnly": true,
                   "type": "string",
                   "enum": [
@@ -2931,7 +3071,6 @@
                   ]
                 },
                 {
-                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
                   "type": "array",
                   "items": {
                     "type": "string",
@@ -2950,7 +3089,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Filters to apply to the query",
               "type": "object",
               "propertyNames": {
                 "type": "string",
@@ -2973,7 +3111,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
               "type": "string",
               "enum": [
                 "draft",
@@ -2996,7 +3133,6 @@
                       "type": "object",
                       "properties": {
                         "documentId": {
-                          "description": "The document ID, represented by a UUID",
                           "type": "string",
                           "format": "uuid",
                           "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
@@ -3012,33 +3148,109 @@
                           ]
                         },
                         "name": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "role": {
-                          "description": "A string field",
                           "type": "string"
                         },
                         "quote": {
-                          "description": "A text field",
                           "type": "string"
                         },
                         "createdAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "updatedAt": {
-                          "description": "A datetime field",
                           "type": "string"
                         },
                         "publishedAt": {
-                          "description": "A datetime field",
-                          "default": "2026-01-09T16:25:53.774Z",
+                          "default": "2026-01-10T13:24:16.236Z",
                           "type": "string"
                         },
                         "avatar": {
-                          "description": "A media field",
-                          "$ref": "#/components/schemas/PluginUploadFileDocument"
+                          "type": "object",
+                          "properties": {
+                            "documentId": {
+                              "type": "string",
+                              "format": "uuid",
+                              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                            },
+                            "id": {
+                              "anyOf": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "number"
+                                }
+                              ]
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "alternativeText": {
+                              "type": "string"
+                            },
+                            "caption": {
+                              "type": "string"
+                            },
+                            "width": {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            "height": {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            "formats": {},
+                            "hash": {
+                              "type": "string"
+                            },
+                            "ext": {
+                              "type": "string"
+                            },
+                            "mime": {
+                              "type": "string"
+                            },
+                            "size": {
+                              "type": "number"
+                            },
+                            "url": {
+                              "type": "string"
+                            },
+                            "previewUrl": {
+                              "type": "string"
+                            },
+                            "provider": {
+                              "type": "string"
+                            },
+                            "provider_metadata": {},
+                            "createdAt": {
+                              "type": "string"
+                            },
+                            "updatedAt": {
+                              "type": "string"
+                            },
+                            "publishedAt": {
+                              "default": "2026-01-10T13:24:16.224Z",
+                              "type": "string"
+                            },
+                            "related": {}
+                          },
+                          "required": [
+                            "documentId",
+                            "id",
+                            "name",
+                            "hash",
+                            "mime",
+                            "size",
+                            "url",
+                            "provider",
+                            "publishedAt",
+                            "related"
+                          ],
+                          "additionalProperties": false
                         }
                       },
                       "required": [
@@ -5103,7 +5315,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Select specific fields to return in the response",
               "anyOf": [
                 {
                   "type": "string"
@@ -5124,7 +5335,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Specify which relations to populate in the response",
               "anyOf": [
                 {
                   "type": "string",
@@ -5156,7 +5366,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Sort the results by specified fields",
               "anyOf": [
                 {
                   "type": "string"
@@ -5206,13 +5415,11 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Pagination parameters",
               "allOf": [
                 {
                   "type": "object",
                   "properties": {
                     "withCount": {
-                      "description": "Include total count in response",
                       "type": "boolean"
                     }
                   },
@@ -5221,17 +5428,14 @@
                 {
                   "anyOf": [
                     {
-                      "description": "Page-based pagination",
                       "type": "object",
                       "properties": {
                         "page": {
-                          "description": "Page number (1-based)",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
                         },
                         "pageSize": {
-                          "description": "Number of entries per page",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
@@ -5244,17 +5448,14 @@
                       "additionalProperties": false
                     },
                     {
-                      "description": "Offset-based pagination",
                       "type": "object",
                       "properties": {
                         "start": {
-                          "description": "Number of entries to skip",
                           "type": "integer",
                           "minimum": 0,
                           "maximum": 9007199254740991
                         },
                         "limit": {
-                          "description": "Maximum number of entries to return",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
@@ -5278,7 +5479,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Apply filters to the query",
               "type": "object",
               "propertyNames": {
                 "type": "string"
@@ -5471,7 +5671,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Select specific fields to return in the response",
               "anyOf": [
                 {
                   "type": "string"
@@ -5492,7 +5691,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Specify which relations to populate in the response",
               "anyOf": [
                 {
                   "type": "string",
@@ -7136,7 +7334,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Apply filters to the query",
               "type": "object",
               "propertyNames": {
                 "type": "string"
@@ -7189,7 +7386,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Select specific fields to return in the response",
               "anyOf": [
                 {
                   "type": "string"
@@ -7210,7 +7406,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Specify which relations to populate in the response",
               "anyOf": [
                 {
                   "type": "string",
@@ -7242,7 +7437,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Sort the results by specified fields",
               "anyOf": [
                 {
                   "type": "string"
@@ -7292,13 +7486,11 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Pagination parameters",
               "allOf": [
                 {
                   "type": "object",
                   "properties": {
                     "withCount": {
-                      "description": "Include total count in response",
                       "type": "boolean"
                     }
                   },
@@ -7307,17 +7499,14 @@
                 {
                   "anyOf": [
                     {
-                      "description": "Page-based pagination",
                       "type": "object",
                       "properties": {
                         "page": {
-                          "description": "Page number (1-based)",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
                         },
                         "pageSize": {
-                          "description": "Number of entries per page",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
@@ -7330,17 +7519,14 @@
                       "additionalProperties": false
                     },
                     {
-                      "description": "Offset-based pagination",
                       "type": "object",
                       "properties": {
                         "start": {
-                          "description": "Number of entries to skip",
                           "type": "integer",
                           "minimum": 0,
                           "maximum": 9007199254740991
                         },
                         "limit": {
-                          "description": "Maximum number of entries to return",
                           "type": "integer",
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
@@ -7364,7 +7550,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Apply filters to the query",
               "type": "object",
               "propertyNames": {
                 "type": "string"
@@ -7669,7 +7854,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Select specific fields to return in the response",
               "anyOf": [
                 {
                   "type": "string"
@@ -7690,7 +7874,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Specify which relations to populate in the response",
               "anyOf": [
                 {
                   "type": "string",
@@ -7860,7 +8043,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Select specific fields to return in the response",
               "anyOf": [
                 {
                   "type": "string"
@@ -7881,7 +8063,6 @@
             "required": false,
             "schema": {
               "$schema": "https://json-schema.org/draft/2020-12/schema",
-              "description": "Specify which relations to populate in the response",
               "anyOf": [
                 {
                   "type": "string",
@@ -8928,115 +9109,6 @@
     }
   },
   "components": {
-    "schemas": {
-      "PluginUploadFileDocument": {
-        "$schema": "https://json-schema.org/draft/2020-12/schema",
-        "type": "object",
-        "properties": {
-          "documentId": {
-            "description": "The document ID, represented by a UUID",
-            "type": "string",
-            "format": "uuid",
-            "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
-          },
-          "id": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "number"
-              }
-            ]
-          },
-          "name": {
-            "description": "A string field",
-            "type": "string"
-          },
-          "alternativeText": {
-            "description": "A text field",
-            "type": "string"
-          },
-          "caption": {
-            "description": "A text field",
-            "type": "string"
-          },
-          "width": {
-            "description": "An integer field",
-            "type": "integer",
-            "minimum": -9007199254740991,
-            "maximum": 9007199254740991
-          },
-          "height": {
-            "description": "An integer field",
-            "type": "integer",
-            "minimum": -9007199254740991,
-            "maximum": 9007199254740991
-          },
-          "formats": {
-            "description": "A JSON field"
-          },
-          "hash": {
-            "description": "A string field",
-            "type": "string"
-          },
-          "ext": {
-            "description": "A string field",
-            "type": "string"
-          },
-          "mime": {
-            "description": "A string field",
-            "type": "string"
-          },
-          "size": {
-            "description": "A decimal field",
-            "type": "number"
-          },
-          "url": {
-            "description": "A text field",
-            "type": "string"
-          },
-          "previewUrl": {
-            "description": "A text field",
-            "type": "string"
-          },
-          "provider": {
-            "description": "A string field",
-            "type": "string"
-          },
-          "provider_metadata": {
-            "description": "A JSON field"
-          },
-          "createdAt": {
-            "description": "A datetime field",
-            "type": "string"
-          },
-          "updatedAt": {
-            "description": "A datetime field",
-            "type": "string"
-          },
-          "publishedAt": {
-            "description": "A datetime field",
-            "default": "2026-01-09T16:25:53.756Z",
-            "type": "string"
-          },
-          "related": {}
-        },
-        "required": [
-          "documentId",
-          "id",
-          "name",
-          "hash",
-          "mime",
-          "size",
-          "url",
-          "provider",
-          "publishedAt",
-          "related"
-        ],
-        "additionalProperties": false,
-        "id": "PluginUploadFileDocument"
-      }
-    }
+    "schemas": {}
   }
 }

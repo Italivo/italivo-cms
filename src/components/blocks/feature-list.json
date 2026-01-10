@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_blocks_feature_lists",
+  "info": {
+    "displayName": "Feature List",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "features": {
+      "type": "component",
+      "component": "shared.feature",
+      "repeatable": true,
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "background": {
+      "type": "enumeration",
+      "required": false,
+      "default": "transparent",
+      "enum": [
+        "transparent",
+        "secondary"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -17,7 +17,8 @@
         "blocks.hero",
         "blocks.icon-cards",
         "blocks.content-with-image",
-        "blocks.testimonials"
+        "blocks.testimonials",
+        "blocks.feature-list"
       ],
       "required": true,
       "min": 1
