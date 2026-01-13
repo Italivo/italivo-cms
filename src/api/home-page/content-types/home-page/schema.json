@@ -18,7 +18,8 @@
         "blocks.icon-cards",
         "blocks.content-with-image",
         "blocks.testimonials",
-        "blocks.feature-list"
+        "blocks.feature-list",
+        "blocks.learning-paths"
       ],
       "required": true,
       "min": 1

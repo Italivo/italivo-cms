@@ -76,6 +76,19 @@ export interface BlocksIconCards extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksLearningPaths extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_learning_paths';
+  info: {
+    displayName: 'Learning Paths';
+    icon: 'apps';
+  };
+  attributes: {
+    background: Schema.Attribute.Enumeration<['transparent', 'secondary']> &
+      Schema.Attribute.DefaultTo<'transparent'>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface BlocksTestimonials extends Struct.ComponentSchema {
   collectionName: 'components_blocks_testimonials';
   info: {
@@ -155,6 +168,7 @@ declare module '@strapi/strapi' {
       'blocks.feature-list': BlocksFeatureList;
       'blocks.hero': BlocksHero;
       'blocks.icon-cards': BlocksIconCards;
+      'blocks.learning-paths': BlocksLearningPaths;
       'blocks.testimonials': BlocksTestimonials;
       'shared.cta': SharedCta;
       'shared.feature': SharedFeature;

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_learning_paths",
+  "info": {
+    "displayName": "Learning Paths",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "background": {
+      "type": "enumeration",
+      "default": "transparent",
+      "enum": [
+        "transparent",
+        "secondary"
+      ]
+    }
+  },
+  "config": {}
+}
