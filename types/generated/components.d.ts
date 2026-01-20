@@ -89,6 +89,15 @@ export interface BlocksLearningPaths extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksPackages extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_packages';
+  info: {
+    displayName: 'Packages';
+    icon: 'stack';
+  };
+  attributes: {};
+}
+
 export interface BlocksTestimonials extends Struct.ComponentSchema {
   collectionName: 'components_blocks_testimonials';
   info: {
@@ -169,6 +178,7 @@ declare module '@strapi/strapi' {
       'blocks.hero': BlocksHero;
       'blocks.icon-cards': BlocksIconCards;
       'blocks.learning-paths': BlocksLearningPaths;
+      'blocks.packages': BlocksPackages;
       'blocks.testimonials': BlocksTestimonials;
       'shared.cta': SharedCta;
       'shared.feature': SharedFeature;

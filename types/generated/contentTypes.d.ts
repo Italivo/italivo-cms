@@ -486,6 +486,7 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
         'blocks.testimonials',
         'blocks.feature-list',
         'blocks.learning-paths',
+        'blocks.packages',
       ]
     > &
       Schema.Attribute.Required &

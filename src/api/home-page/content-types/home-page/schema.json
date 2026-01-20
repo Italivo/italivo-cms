@@ -19,7 +19,8 @@
         "blocks.content-with-image",
         "blocks.testimonials",
         "blocks.feature-list",
-        "blocks.learning-paths"
+        "blocks.learning-paths",
+        "blocks.packages"
       ],
       "required": true,
       "min": 1
