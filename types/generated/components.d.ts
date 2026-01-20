@@ -95,7 +95,11 @@ export interface BlocksPackages extends Struct.ComponentSchema {
     displayName: 'Packages';
     icon: 'stack';
   };
-  attributes: {};
+  attributes: {
+    background: Schema.Attribute.Enumeration<['transparent', 'secondary']> &
+      Schema.Attribute.DefaultTo<'transparent'>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
 }
 
 export interface BlocksTestimonials extends Struct.ComponentSchema {

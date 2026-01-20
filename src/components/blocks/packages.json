@@ -5,6 +5,19 @@
     "icon": "stack"
   },
   "options": {},
-  "attributes": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "background": {
+      "type": "enumeration",
+      "default": "transparent",
+      "enum": [
+        "transparent",
+        "secondary"
+      ]
+    }
+  },
   "config": {}
 }
