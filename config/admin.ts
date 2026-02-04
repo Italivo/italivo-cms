@@ -59,13 +59,13 @@ const getPreviewPathname = (
       return "/packages";
 
     // ** Handle pages with dynamic routes (Collection-Types Pages) **
-    case "api::learning-paths.learning-path": {
+    case "api::learning-path.learning-path": {
       if (!slug) {
         return null; // There is no learning-paths single type page ATM!
       }
       return `/learning-paths/${slug}`;
     }
-    case "api::packages.package": {
+    case "api::package.package": {
       if (!slug) {
         return "/packages";
       }
