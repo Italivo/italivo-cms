@@ -628,6 +628,33 @@ export interface ApiPackagePackage extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiPackagesPagePackagesPage extends Struct.SingleTypeSchema {
+  collectionName: 'packages_pages';
+  info: {
+    displayName: 'Packages Page';
+    pluralName: 'packages-pages';
+    singularName: 'packages-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::packages-page.packages-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiPagePage extends Struct.CollectionTypeSchema {
   collectionName: 'pages';
   info: {
@@ -1200,6 +1227,7 @@ declare module '@strapi/strapi' {
       'api::learning-path.learning-path': ApiLearningPathLearningPath;
       'api::package-category.package-category': ApiPackageCategoryPackageCategory;
       'api::package.package': ApiPackagePackage;
+      'api::packages-page.packages-page': ApiPackagesPagePackagesPage;
       'api::page.page': ApiPagePage;
       'api::testimonial.testimonial': ApiTestimonialTestimonial;
       'plugin::content-releases.release': PluginContentReleasesRelease;

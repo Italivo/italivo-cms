@@ -22,14 +22,17 @@ export default ({ env }) => ({
     config: {
       allowedOrigins: env("CLIENT_URL"),
       async handler(uid, { documentId, locale, status }) {
+        // Fetch the complete document from Strapi
         const document = await strapi.documents(uid).findOne({ documentId });
-
+        // Generate the preview pathname based on content type and document
         const pathname = getPreviewPathname(uid, { locale, document });
 
+        // Disable preview if the pathname is not found
         if (!pathname) {
           return null;
         }
 
+        // Use Next.js draft mode passing it a secret key and the content-type status
         const urlSearchParams = new URLSearchParams({
           url: pathname,
           secret: env("PREVIEW_SECRET"),
@@ -44,11 +47,30 @@ export default ({ env }) => ({
 
 const getPreviewPathname = (
   uid: string,
-  { locale, document }: { locale?: string; document: any }
+  { locale, document }: { locale?: string; document: any },
 ): string | null => {
+  const { slug } = document;
+
   switch (uid) {
+    // ** Handle pages with predefined routes (Single-Types Pages)**
     case "api::home-page.home-page":
       return "/";
+    case "api::packages-page.packages-page":
+      return "/packages";
+
+    // ** Handle pages with dynamic routes (Collection-Types Pages) **
+    case "api::learning-paths.learning-path": {
+      if (!slug) {
+        return null; // There is no learning-paths single type page ATM!
+      }
+      return `/learning-paths/${slug}`;
+    }
+    case "api::packages.package": {
+      if (!slug) {
+        return "/packages";
+      }
+      return `/packages/${slug}`;
+    }
     default:
       return null;
   }

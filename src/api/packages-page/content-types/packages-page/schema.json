@@ -1,0 +1,14 @@
+{
+  "kind": "singleType",
+  "collectionName": "packages_pages",
+  "info": {
+    "singularName": "packages-page",
+    "pluralName": "packages-pages",
+    "displayName": "Packages Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
