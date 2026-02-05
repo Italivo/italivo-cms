@@ -536,6 +536,10 @@ export interface ApiLearningPathLearningPath
       'api::learning-path.learning-path'
     > &
       Schema.Attribute.Private;
+    package_category: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::package-category.package-category'
+    >;
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID<'title'> & Schema.Attribute.Required;
     tagline: Schema.Attribute.Text & Schema.Attribute.Required;
@@ -561,6 +565,10 @@ export interface ApiPackageCategoryPackageCategory
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    learning_paths: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::learning-path.learning-path'
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

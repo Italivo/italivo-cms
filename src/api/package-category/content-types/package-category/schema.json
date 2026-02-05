@@ -26,6 +26,12 @@
       "required": false,
       "default": 1,
       "min": 1
+    },
+    "learning_paths": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::learning-path.learning-path",
+      "mappedBy": "package_category"
     }
   }
 }

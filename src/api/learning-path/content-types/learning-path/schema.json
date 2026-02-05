@@ -44,6 +44,12 @@
     "content": {
       "type": "richtext",
       "required": true
+    },
+    "package_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::package-category.package-category",
+      "inversedBy": "learning_paths"
     }
   }
 }
