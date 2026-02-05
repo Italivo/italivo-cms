@@ -11,8 +11,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.testimonials",
+        "blocks.packages",
+        "blocks.learning-paths",
+        "blocks.hero",
+        "blocks.feature-list",
+        "blocks.content",
+        "blocks.content-with-image"
+      ],
+      "required": true,
+      "min": 1
     }
   }
 }

@@ -1,5 +1,22 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface BlocksContent extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_contents';
+  info: {
+    displayName: 'Content';
+    icon: 'layer';
+  };
+  attributes: {
+    background: Schema.Attribute.Enumeration<['transparent', 'secondary']> &
+      Schema.Attribute.DefaultTo<'transparent'>;
+    buttonLink: Schema.Attribute.Component<'shared.button-link', false>;
+    content: Schema.Attribute.RichText;
+    disclaimer: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface BlocksContentWithImage extends Struct.ComponentSchema {
   collectionName: 'components_blocks_content_with_images';
   info: {
@@ -8,16 +25,16 @@ export interface BlocksContentWithImage extends Struct.ComponentSchema {
   };
   attributes: {
     background: Schema.Attribute.Enumeration<['transparent', 'secondary']> &
-      Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'transparent'>;
-    content: Schema.Attribute.RichText & Schema.Attribute.Required;
+    buttonLink: Schema.Attribute.Component<'shared.button-link', false>;
+    content: Schema.Attribute.RichText;
+    disclaimer: Schema.Attribute.String;
     image: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
     imagePositionDesktop: Schema.Attribute.Enumeration<['left', 'right']> &
-      Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'right'>;
     imagePositionMobile: Schema.Attribute.Enumeration<['top', 'bottom']> &
-      Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'top'>;
+    subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -46,33 +63,11 @@ export interface BlocksHero extends Struct.ComponentSchema {
     icon: 'picture';
   };
   attributes: {
-    backgroundImage: Schema.Attribute.Media<'images'> &
-      Schema.Attribute.Required;
-    cta: Schema.Attribute.Component<'shared.cta', false>;
-    subtitle: Schema.Attribute.Text & Schema.Attribute.Required;
+    buttonLink: Schema.Attribute.Component<'shared.button-link', false>;
+    imageDesktop: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
+    imageMobile: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
+    subtitle: Schema.Attribute.Text;
     title: Schema.Attribute.String & Schema.Attribute.Required;
-  };
-}
-
-export interface BlocksIconCards extends Struct.ComponentSchema {
-  collectionName: 'components_blocks_icon_cards';
-  info: {
-    displayName: 'Icon Cards';
-    icon: 'apps';
-  };
-  attributes: {
-    background: Schema.Attribute.Enumeration<['transparent', 'secondary']> &
-      Schema.Attribute.Required &
-      Schema.Attribute.DefaultTo<'secondary'>;
-    iconCards: Schema.Attribute.Component<'shared.icon-card', true> &
-      Schema.Attribute.Required &
-      Schema.Attribute.SetMinMax<
-        {
-          min: 1;
-        },
-        number
-      >;
-    title: Schema.Attribute.String;
   };
 }
 
@@ -116,18 +111,17 @@ export interface BlocksTestimonials extends Struct.ComponentSchema {
   };
 }
 
-export interface SharedCta extends Struct.ComponentSchema {
-  collectionName: 'components_shared_ctas';
+export interface SharedButtonLink extends Struct.ComponentSchema {
+  collectionName: 'components_shared_button_links';
   info: {
-    displayName: 'Cta';
-    icon: 'bell';
+    displayName: 'ButtonLink';
+    icon: 'link';
   };
   attributes: {
     link: Schema.Attribute.Component<'shared.link', false> &
       Schema.Attribute.Required;
     variant: Schema.Attribute.Enumeration<['primary', 'accent']> &
-      Schema.Attribute.Required &
-      Schema.Attribute.DefaultTo<'primary'>;
+      Schema.Attribute.DefaultTo<'accent'>;
   };
 }
 
@@ -143,20 +137,6 @@ export interface SharedFeature extends Struct.ComponentSchema {
   };
 }
 
-export interface SharedIconCard extends Struct.ComponentSchema {
-  collectionName: 'components_shared_icon_cards';
-  info: {
-    displayName: 'Icon Card';
-    icon: 'puzzle';
-  };
-  attributes: {
-    description: Schema.Attribute.Text;
-    icon: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
-    link: Schema.Attribute.Component<'shared.link', false>;
-    title: Schema.Attribute.String & Schema.Attribute.Required;
-  };
-}
-
 export interface SharedLink extends Struct.ComponentSchema {
   collectionName: 'components_shared_links';
   info: {
@@ -164,29 +144,25 @@ export interface SharedLink extends Struct.ComponentSchema {
     icon: 'link';
   };
   attributes: {
-    externalUrl: Schema.Attribute.String;
     label: Schema.Attribute.String & Schema.Attribute.Required;
-    page: Schema.Attribute.Relation<'oneToOne', 'api::page.page'>;
-    target: Schema.Attribute.Enumeration<['_self', '_blank']> &
-      Schema.Attribute.DefaultTo<'_self'>;
-    type: Schema.Attribute.Enumeration<['internal', 'external']> &
+    type: Schema.Attribute.Enumeration<['internal', 'external', 'free-call']> &
       Schema.Attribute.Required;
+    url: Schema.Attribute.String;
   };
 }
 
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'blocks.content': BlocksContent;
       'blocks.content-with-image': BlocksContentWithImage;
       'blocks.feature-list': BlocksFeatureList;
       'blocks.hero': BlocksHero;
-      'blocks.icon-cards': BlocksIconCards;
       'blocks.learning-paths': BlocksLearningPaths;
       'blocks.packages': BlocksPackages;
       'blocks.testimonials': BlocksTestimonials;
-      'shared.cta': SharedCta;
+      'shared.button-link': SharedButtonLink;
       'shared.feature': SharedFeature;
-      'shared.icon-card': SharedIconCard;
       'shared.link': SharedLink;
     }
   }

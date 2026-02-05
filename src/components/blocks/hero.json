@@ -12,9 +12,9 @@
     },
     "subtitle": {
       "type": "text",
-      "required": true
+      "required": false
     },
-    "backgroundImage": {
+    "imageMobile": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -22,9 +22,17 @@
         "images"
       ]
     },
-    "cta": {
+    "imageDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttonLink": {
       "type": "component",
-      "component": "shared.cta",
+      "component": "shared.button-link",
       "repeatable": false
     }
   },

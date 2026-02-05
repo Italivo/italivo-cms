@@ -15,10 +15,11 @@
       "required": true,
       "enum": [
         "internal",
-        "external"
+        "external",
+        "free-call"
       ]
     },
-    "externalUrl": {
+    "url": {
       "type": "string",
       "conditions": {
         "visible": {
@@ -31,30 +32,6 @@
         }
       },
       "required": false
-    },
-    "page": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::page.page",
-      "conditions": {
-        "visible": {
-          "==": [
-            {
-              "var": "type"
-            },
-            "internal"
-          ]
-        }
-      }
-    },
-    "target": {
-      "type": "enumeration",
-      "required": false,
-      "default": "_self",
-      "enum": [
-        "_self",
-        "_blank"
-      ]
     }
   },
   "config": {}

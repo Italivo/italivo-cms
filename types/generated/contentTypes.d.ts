@@ -481,12 +481,12 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
     blocks: Schema.Attribute.DynamicZone<
       [
         'blocks.hero',
-        'blocks.icon-cards',
         'blocks.content-with-image',
         'blocks.testimonials',
         'blocks.feature-list',
         'blocks.learning-paths',
         'blocks.packages',
+        'blocks.content',
       ]
     > &
       Schema.Attribute.Required &
@@ -647,6 +647,24 @@ export interface ApiPackagesPagePackagesPage extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    blocks: Schema.Attribute.DynamicZone<
+      [
+        'blocks.testimonials',
+        'blocks.packages',
+        'blocks.learning-paths',
+        'blocks.hero',
+        'blocks.feature-list',
+        'blocks.content',
+        'blocks.content-with-image',
+      ]
+    > &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 1;
+        },
+        number
+      >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -657,7 +675,6 @@ export interface ApiPackagesPagePackagesPage extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

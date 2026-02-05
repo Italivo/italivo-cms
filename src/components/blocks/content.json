@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blocks_contents",
+  "info": {
+    "displayName": "Content",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "buttonLink": {
+      "type": "component",
+      "component": "shared.button-link",
+      "repeatable": false
+    },
+    "disclaimer": {
+      "type": "string"
+    },
+    "background": {
+      "type": "enumeration",
+      "default": "transparent",
+      "enum": [
+        "transparent",
+        "secondary"
+      ]
+    }
+  },
+  "config": {}
+}

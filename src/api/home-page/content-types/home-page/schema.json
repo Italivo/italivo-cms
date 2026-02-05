@@ -15,12 +15,12 @@
       "type": "dynamiczone",
       "components": [
         "blocks.hero",
-        "blocks.icon-cards",
         "blocks.content-with-image",
         "blocks.testimonials",
         "blocks.feature-list",
         "blocks.learning-paths",
-        "blocks.packages"
+        "blocks.packages",
+        "blocks.content"
       ],
       "required": true,
       "min": 1

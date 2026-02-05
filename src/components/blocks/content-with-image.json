@@ -10,9 +10,20 @@
       "type": "string",
       "required": true
     },
+    "subtitle": {
+      "type": "string"
+    },
     "content": {
       "type": "richtext",
-      "required": true
+      "required": false
+    },
+    "buttonLink": {
+      "type": "component",
+      "component": "shared.button-link",
+      "repeatable": false
+    },
+    "disclaimer": {
+      "type": "string"
     },
     "image": {
       "type": "media",
@@ -24,7 +35,7 @@
     },
     "imagePositionMobile": {
       "type": "enumeration",
-      "required": true,
+      "required": false,
       "default": "top",
       "enum": [
         "top",
@@ -33,7 +44,7 @@
     },
     "imagePositionDesktop": {
       "type": "enumeration",
-      "required": true,
+      "required": false,
       "default": "right",
       "enum": [
         "left",
@@ -42,7 +53,7 @@
     },
     "background": {
       "type": "enumeration",
-      "required": true,
+      "required": false,
       "default": "transparent",
       "enum": [
         "transparent",

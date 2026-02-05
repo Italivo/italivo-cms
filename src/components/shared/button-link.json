@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_shared_ctas",
+  "collectionName": "components_shared_button_links",
   "info": {
-    "displayName": "Cta",
-    "icon": "bell"
+    "displayName": "ButtonLink",
+    "icon": "link"
   },
   "options": {},
   "attributes": {
@@ -14,8 +14,7 @@
     },
     "variant": {
       "type": "enumeration",
-      "required": true,
-      "default": "primary",
+      "default": "accent",
       "enum": [
         "primary",
         "accent"
