@@ -131,7 +131,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.627Z",
+                          "default": "2026-02-06T16:14:42.266Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -279,7 +279,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.632Z",
+                          "default": "2026-02-06T16:14:42.273Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -334,7 +334,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.631Z",
+                        "default": "2026-02-06T16:14:42.272Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -457,7 +457,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.635Z",
+                          "default": "2026-02-06T16:14:42.276Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -811,7 +811,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-02-06T14:47:21.642Z",
+                            "default": "2026-02-06T16:14:42.284Z",
                             "type": "string"
                           },
                           "icon": {
@@ -881,7 +881,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.646Z",
+                                "default": "2026-02-06T16:14:42.289Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -967,7 +967,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.646Z",
+                                "default": "2026-02-06T16:14:42.289Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -1020,7 +1020,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.648Z",
+                                "default": "2026-02-06T16:14:42.292Z",
                                 "type": "string"
                               },
                               "packages": {
@@ -1064,6 +1064,20 @@
                                       "minimum": -9007199254740991,
                                       "maximum": 9007199254740991
                                     },
+                                    "hasBadge": {
+                                      "default": false,
+                                      "anyOf": [
+                                        {
+                                          "type": "boolean"
+                                        },
+                                        {
+                                          "type": "null"
+                                        }
+                                      ]
+                                    },
+                                    "badgeLabel": {
+                                      "type": "string"
+                                    },
                                     "createdAt": {
                                       "type": "string"
                                     },
@@ -1071,7 +1085,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-06T14:47:21.650Z",
+                                      "default": "2026-02-06T16:14:42.297Z",
                                       "type": "string"
                                     },
                                     "package_category": {}
@@ -1085,6 +1099,7 @@
                                     "price",
                                     "content",
                                     "order",
+                                    "hasBadge",
                                     "publishedAt"
                                   ],
                                   "additionalProperties": false
@@ -1129,7 +1144,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-06T14:47:21.651Z",
+                                      "default": "2026-02-06T16:14:42.300Z",
                                       "type": "string"
                                     },
                                     "icon": {
@@ -1199,7 +1214,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-02-06T14:47:21.646Z",
+                                          "default": "2026-02-06T16:14:42.289Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -1285,7 +1300,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-02-06T14:47:21.646Z",
+                                          "default": "2026-02-06T16:14:42.289Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -1497,7 +1512,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.665Z",
+                          "default": "2026-02-06T16:14:42.311Z",
                           "type": "string"
                         },
                         "icon": {
@@ -1567,7 +1582,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
@@ -1653,7 +1668,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
@@ -1706,7 +1721,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.648Z",
+                              "default": "2026-02-06T16:14:42.292Z",
                               "type": "string"
                             },
                             "packages": {
@@ -1750,6 +1765,20 @@
                                     "minimum": -9007199254740991,
                                     "maximum": 9007199254740991
                                   },
+                                  "hasBadge": {
+                                    "default": false,
+                                    "anyOf": [
+                                      {
+                                        "type": "boolean"
+                                      },
+                                      {
+                                        "type": "null"
+                                      }
+                                    ]
+                                  },
+                                  "badgeLabel": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string"
                                   },
@@ -1757,7 +1786,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.650Z",
+                                    "default": "2026-02-06T16:14:42.297Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -1771,6 +1800,7 @@
                                   "price",
                                   "content",
                                   "order",
+                                  "hasBadge",
                                   "publishedAt"
                                 ],
                                 "additionalProperties": false
@@ -1815,7 +1845,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.651Z",
+                                    "default": "2026-02-06T16:14:42.300Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -1885,7 +1915,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -1971,7 +2001,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2081,7 +2111,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.664Z",
+                        "default": "2026-02-06T16:14:42.310Z",
                         "type": "string"
                       },
                       "icon": {},
@@ -2357,7 +2387,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.660Z",
+                          "default": "2026-02-06T16:14:42.306Z",
                           "type": "string"
                         },
                         "icon": {
@@ -2427,7 +2457,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
@@ -2513,7 +2543,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
@@ -2566,7 +2596,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.648Z",
+                              "default": "2026-02-06T16:14:42.292Z",
                               "type": "string"
                             },
                             "packages": {
@@ -2610,6 +2640,20 @@
                                     "minimum": -9007199254740991,
                                     "maximum": 9007199254740991
                                   },
+                                  "hasBadge": {
+                                    "default": false,
+                                    "anyOf": [
+                                      {
+                                        "type": "boolean"
+                                      },
+                                      {
+                                        "type": "null"
+                                      }
+                                    ]
+                                  },
+                                  "badgeLabel": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string"
                                   },
@@ -2617,7 +2661,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.650Z",
+                                    "default": "2026-02-06T16:14:42.297Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -2631,6 +2675,7 @@
                                   "price",
                                   "content",
                                   "order",
+                                  "hasBadge",
                                   "publishedAt"
                                 ],
                                 "additionalProperties": false
@@ -2675,7 +2720,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.651Z",
+                                    "default": "2026-02-06T16:14:42.300Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -2745,7 +2790,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2831,7 +2876,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3053,7 +3098,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.670Z",
+                          "default": "2026-02-06T16:14:42.317Z",
                           "type": "string"
                         },
                         "icon": {
@@ -3123,7 +3168,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
@@ -3209,7 +3254,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
@@ -3262,7 +3307,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.648Z",
+                              "default": "2026-02-06T16:14:42.292Z",
                               "type": "string"
                             },
                             "packages": {
@@ -3306,6 +3351,20 @@
                                     "minimum": -9007199254740991,
                                     "maximum": 9007199254740991
                                   },
+                                  "hasBadge": {
+                                    "default": false,
+                                    "anyOf": [
+                                      {
+                                        "type": "boolean"
+                                      },
+                                      {
+                                        "type": "null"
+                                      }
+                                    ]
+                                  },
+                                  "badgeLabel": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string"
                                   },
@@ -3313,7 +3372,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.650Z",
+                                    "default": "2026-02-06T16:14:42.297Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -3327,6 +3386,7 @@
                                   "price",
                                   "content",
                                   "order",
+                                  "hasBadge",
                                   "publishedAt"
                                 ],
                                 "additionalProperties": false
@@ -3371,7 +3431,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.651Z",
+                                    "default": "2026-02-06T16:14:42.300Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -3441,7 +3501,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3527,7 +3587,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3637,7 +3697,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.668Z",
+                        "default": "2026-02-06T16:14:42.315Z",
                         "type": "string"
                       },
                       "icon": {},
@@ -3817,7 +3877,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.673Z",
+                          "default": "2026-02-06T16:14:42.320Z",
                           "type": "string"
                         },
                         "icon": {
@@ -3887,7 +3947,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
@@ -3973,7 +4033,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
@@ -4026,7 +4086,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.648Z",
+                              "default": "2026-02-06T16:14:42.292Z",
                               "type": "string"
                             },
                             "packages": {
@@ -4070,6 +4130,20 @@
                                     "minimum": -9007199254740991,
                                     "maximum": 9007199254740991
                                   },
+                                  "hasBadge": {
+                                    "default": false,
+                                    "anyOf": [
+                                      {
+                                        "type": "boolean"
+                                      },
+                                      {
+                                        "type": "null"
+                                      }
+                                    ]
+                                  },
+                                  "badgeLabel": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string"
                                   },
@@ -4077,7 +4151,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.650Z",
+                                    "default": "2026-02-06T16:14:42.297Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -4091,6 +4165,7 @@
                                   "price",
                                   "content",
                                   "order",
+                                  "hasBadge",
                                   "publishedAt"
                                 ],
                                 "additionalProperties": false
@@ -4135,7 +4210,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.651Z",
+                                    "default": "2026-02-06T16:14:42.300Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -4205,7 +4280,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4291,7 +4366,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4503,7 +4578,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.677Z",
+                          "default": "2026-02-06T16:14:42.324Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -4650,7 +4725,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.680Z",
+                          "default": "2026-02-06T16:14:42.330Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -4704,7 +4779,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.679Z",
+                        "default": "2026-02-06T16:14:42.326Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -4827,7 +4902,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.682Z",
+                          "default": "2026-02-06T16:14:42.332Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -4893,6 +4968,8 @@
                   "price",
                   "content",
                   "order",
+                  "hasBadge",
+                  "badgeLabel",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -4917,6 +4994,8 @@
                   "price",
                   "content",
                   "order",
+                  "hasBadge",
+                  "badgeLabel",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -5016,6 +5095,8 @@
                     "price",
                     "content",
                     "order",
+                    "hasBadge",
+                    "badgeLabel",
                     "createdAt",
                     "updatedAt",
                     "publishedAt"
@@ -5032,6 +5113,8 @@
                       "price",
                       "content",
                       "order",
+                      "hasBadge",
+                      "badgeLabel",
                       "createdAt",
                       "updatedAt",
                       "publishedAt"
@@ -5049,6 +5132,8 @@
                       "price",
                       "content",
                       "order",
+                      "hasBadge",
+                      "badgeLabel",
                       "createdAt",
                       "updatedAt",
                       "publishedAt"
@@ -5075,6 +5160,8 @@
                         "price",
                         "content",
                         "order",
+                        "hasBadge",
+                        "badgeLabel",
                         "createdAt",
                         "updatedAt",
                         "publishedAt"
@@ -5190,6 +5277,20 @@
                             "minimum": -9007199254740991,
                             "maximum": 9007199254740991
                           },
+                          "hasBadge": {
+                            "default": false,
+                            "anyOf": [
+                              {
+                                "type": "boolean"
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "badgeLabel": {
+                            "type": "string"
+                          },
                           "createdAt": {
                             "type": "string"
                           },
@@ -5197,7 +5298,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-02-06T14:47:21.690Z",
+                            "default": "2026-02-06T16:14:42.340Z",
                             "type": "string"
                           },
                           "package_category": {
@@ -5234,7 +5335,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.648Z",
+                                "default": "2026-02-06T16:14:42.292Z",
                                 "type": "string"
                               },
                               "packages": {
@@ -5278,6 +5379,20 @@
                                       "minimum": -9007199254740991,
                                       "maximum": 9007199254740991
                                     },
+                                    "hasBadge": {
+                                      "default": false,
+                                      "anyOf": [
+                                        {
+                                          "type": "boolean"
+                                        },
+                                        {
+                                          "type": "null"
+                                        }
+                                      ]
+                                    },
+                                    "badgeLabel": {
+                                      "type": "string"
+                                    },
                                     "createdAt": {
                                       "type": "string"
                                     },
@@ -5285,7 +5400,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-06T14:47:21.650Z",
+                                      "default": "2026-02-06T16:14:42.297Z",
                                       "type": "string"
                                     },
                                     "package_category": {}
@@ -5299,6 +5414,7 @@
                                     "price",
                                     "content",
                                     "order",
+                                    "hasBadge",
                                     "publishedAt"
                                   ],
                                   "additionalProperties": false
@@ -5343,7 +5459,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-06T14:47:21.651Z",
+                                      "default": "2026-02-06T16:14:42.300Z",
                                       "type": "string"
                                     },
                                     "icon": {
@@ -5413,7 +5529,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-02-06T14:47:21.646Z",
+                                          "default": "2026-02-06T16:14:42.289Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -5499,7 +5615,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-02-06T14:47:21.646Z",
+                                          "default": "2026-02-06T16:14:42.289Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -5554,6 +5670,7 @@
                           "price",
                           "content",
                           "order",
+                          "hasBadge",
                           "publishedAt"
                         ],
                         "additionalProperties": false
@@ -5608,6 +5725,8 @@
                   "price",
                   "content",
                   "order",
+                  "hasBadge",
+                  "badgeLabel",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -5711,6 +5830,20 @@
                           "minimum": -9007199254740991,
                           "maximum": 9007199254740991
                         },
+                        "hasBadge": {
+                          "default": false,
+                          "anyOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "badgeLabel": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string"
                         },
@@ -5718,7 +5851,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.699Z",
+                          "default": "2026-02-06T16:14:42.351Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -5755,7 +5888,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.648Z",
+                              "default": "2026-02-06T16:14:42.292Z",
                               "type": "string"
                             },
                             "packages": {
@@ -5799,6 +5932,20 @@
                                     "minimum": -9007199254740991,
                                     "maximum": 9007199254740991
                                   },
+                                  "hasBadge": {
+                                    "default": false,
+                                    "anyOf": [
+                                      {
+                                        "type": "boolean"
+                                      },
+                                      {
+                                        "type": "null"
+                                      }
+                                    ]
+                                  },
+                                  "badgeLabel": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string"
                                   },
@@ -5806,7 +5953,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.650Z",
+                                    "default": "2026-02-06T16:14:42.297Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -5820,6 +5967,7 @@
                                   "price",
                                   "content",
                                   "order",
+                                  "hasBadge",
                                   "publishedAt"
                                 ],
                                 "additionalProperties": false
@@ -5864,7 +6012,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.651Z",
+                                    "default": "2026-02-06T16:14:42.300Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -5934,7 +6082,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6020,7 +6168,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6075,6 +6223,7 @@
                         "price",
                         "content",
                         "order",
+                        "hasBadge",
                         "publishedAt"
                       ],
                       "additionalProperties": false
@@ -6138,8 +6287,30 @@
                         "minimum": -9007199254740991,
                         "maximum": 9007199254740991
                       },
+                      "hasBadge": {
+                        "default": false,
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "0",
+                              "1",
+                              "t",
+                              "true",
+                              "f",
+                              "false"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "badgeLabel": {
+                        "type": "string"
+                      },
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.697Z",
+                        "default": "2026-02-06T16:14:42.349Z",
                         "type": "string"
                       },
                       "package_category": {
@@ -6155,6 +6326,7 @@
                       "price",
                       "content",
                       "order",
+                      "hasBadge",
                       "publishedAt"
                     ],
                     "additionalProperties": false
@@ -6202,6 +6374,8 @@
                   "price",
                   "content",
                   "order",
+                  "hasBadge",
+                  "badgeLabel",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -6258,6 +6432,8 @@
                   "price",
                   "content",
                   "order",
+                  "hasBadge",
+                  "badgeLabel",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -6283,6 +6459,8 @@
                     "price",
                     "content",
                     "order",
+                    "hasBadge",
+                    "badgeLabel",
                     "createdAt",
                     "updatedAt",
                     "publishedAt"
@@ -6299,6 +6477,8 @@
                       "price",
                       "content",
                       "order",
+                      "hasBadge",
+                      "badgeLabel",
                       "createdAt",
                       "updatedAt",
                       "publishedAt"
@@ -6316,6 +6496,8 @@
                       "price",
                       "content",
                       "order",
+                      "hasBadge",
+                      "badgeLabel",
                       "createdAt",
                       "updatedAt",
                       "publishedAt"
@@ -6342,6 +6524,8 @@
                         "price",
                         "content",
                         "order",
+                        "hasBadge",
+                        "badgeLabel",
                         "createdAt",
                         "updatedAt",
                         "publishedAt"
@@ -6423,6 +6607,20 @@
                           "minimum": -9007199254740991,
                           "maximum": 9007199254740991
                         },
+                        "hasBadge": {
+                          "default": false,
+                          "anyOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "badgeLabel": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string"
                         },
@@ -6430,7 +6628,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.695Z",
+                          "default": "2026-02-06T16:14:42.345Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -6467,7 +6665,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.648Z",
+                              "default": "2026-02-06T16:14:42.292Z",
                               "type": "string"
                             },
                             "packages": {
@@ -6511,6 +6709,20 @@
                                     "minimum": -9007199254740991,
                                     "maximum": 9007199254740991
                                   },
+                                  "hasBadge": {
+                                    "default": false,
+                                    "anyOf": [
+                                      {
+                                        "type": "boolean"
+                                      },
+                                      {
+                                        "type": "null"
+                                      }
+                                    ]
+                                  },
+                                  "badgeLabel": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string"
                                   },
@@ -6518,7 +6730,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.650Z",
+                                    "default": "2026-02-06T16:14:42.297Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -6532,6 +6744,7 @@
                                   "price",
                                   "content",
                                   "order",
+                                  "hasBadge",
                                   "publishedAt"
                                 ],
                                 "additionalProperties": false
@@ -6576,7 +6789,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.651Z",
+                                    "default": "2026-02-06T16:14:42.300Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -6646,7 +6859,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6732,7 +6945,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6787,6 +7000,7 @@
                         "price",
                         "content",
                         "order",
+                        "hasBadge",
                         "publishedAt"
                       ],
                       "additionalProperties": false
@@ -6851,6 +7065,8 @@
                   "price",
                   "content",
                   "order",
+                  "hasBadge",
+                  "badgeLabel",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -6954,6 +7170,20 @@
                           "minimum": -9007199254740991,
                           "maximum": 9007199254740991
                         },
+                        "hasBadge": {
+                          "default": false,
+                          "anyOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "badgeLabel": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string"
                         },
@@ -6961,7 +7191,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.703Z",
+                          "default": "2026-02-06T16:14:42.357Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -6998,7 +7228,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.648Z",
+                              "default": "2026-02-06T16:14:42.292Z",
                               "type": "string"
                             },
                             "packages": {
@@ -7042,6 +7272,20 @@
                                     "minimum": -9007199254740991,
                                     "maximum": 9007199254740991
                                   },
+                                  "hasBadge": {
+                                    "default": false,
+                                    "anyOf": [
+                                      {
+                                        "type": "boolean"
+                                      },
+                                      {
+                                        "type": "null"
+                                      }
+                                    ]
+                                  },
+                                  "badgeLabel": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string"
                                   },
@@ -7049,7 +7293,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.650Z",
+                                    "default": "2026-02-06T16:14:42.297Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -7063,6 +7307,7 @@
                                   "price",
                                   "content",
                                   "order",
+                                  "hasBadge",
                                   "publishedAt"
                                 ],
                                 "additionalProperties": false
@@ -7107,7 +7352,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.651Z",
+                                    "default": "2026-02-06T16:14:42.300Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -7177,7 +7422,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7263,7 +7508,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7318,6 +7563,7 @@
                         "price",
                         "content",
                         "order",
+                        "hasBadge",
                         "publishedAt"
                       ],
                       "additionalProperties": false
@@ -7381,8 +7627,30 @@
                         "minimum": -9007199254740991,
                         "maximum": 9007199254740991
                       },
+                      "hasBadge": {
+                        "default": false,
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "0",
+                              "1",
+                              "t",
+                              "true",
+                              "f",
+                              "false"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "badgeLabel": {
+                        "type": "string"
+                      },
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.702Z",
+                        "default": "2026-02-06T16:14:42.355Z",
                         "type": "string"
                       },
                       "package_category": {
@@ -7434,6 +7702,8 @@
                   "price",
                   "content",
                   "order",
+                  "hasBadge",
+                  "badgeLabel",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -7490,6 +7760,8 @@
                   "price",
                   "content",
                   "order",
+                  "hasBadge",
+                  "badgeLabel",
                   "createdAt",
                   "updatedAt",
                   "publishedAt"
@@ -7562,6 +7834,20 @@
                           "minimum": -9007199254740991,
                           "maximum": 9007199254740991
                         },
+                        "hasBadge": {
+                          "default": false,
+                          "anyOf": [
+                            {
+                              "type": "boolean"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "badgeLabel": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string"
                         },
@@ -7569,7 +7855,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.706Z",
+                          "default": "2026-02-06T16:14:42.364Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -7606,7 +7892,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.648Z",
+                              "default": "2026-02-06T16:14:42.292Z",
                               "type": "string"
                             },
                             "packages": {
@@ -7650,6 +7936,20 @@
                                     "minimum": -9007199254740991,
                                     "maximum": 9007199254740991
                                   },
+                                  "hasBadge": {
+                                    "default": false,
+                                    "anyOf": [
+                                      {
+                                        "type": "boolean"
+                                      },
+                                      {
+                                        "type": "null"
+                                      }
+                                    ]
+                                  },
+                                  "badgeLabel": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string"
                                   },
@@ -7657,7 +7957,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.650Z",
+                                    "default": "2026-02-06T16:14:42.297Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -7671,6 +7971,7 @@
                                   "price",
                                   "content",
                                   "order",
+                                  "hasBadge",
                                   "publishedAt"
                                 ],
                                 "additionalProperties": false
@@ -7715,7 +8016,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.651Z",
+                                    "default": "2026-02-06T16:14:42.300Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -7785,7 +8086,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7871,7 +8172,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-06T14:47:21.646Z",
+                                        "default": "2026-02-06T16:14:42.289Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7926,6 +8227,7 @@
                         "price",
                         "content",
                         "order",
+                        "hasBadge",
                         "publishedAt"
                       ],
                       "additionalProperties": false
@@ -8251,7 +8553,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-02-06T14:47:21.711Z",
+                            "default": "2026-02-06T16:14:42.370Z",
                             "type": "string"
                           },
                           "packages": {
@@ -8295,6 +8597,20 @@
                                   "minimum": -9007199254740991,
                                   "maximum": 9007199254740991
                                 },
+                                "hasBadge": {
+                                  "default": false,
+                                  "anyOf": [
+                                    {
+                                      "type": "boolean"
+                                    },
+                                    {
+                                      "type": "null"
+                                    }
+                                  ]
+                                },
+                                "badgeLabel": {
+                                  "type": "string"
+                                },
                                 "createdAt": {
                                   "type": "string"
                                 },
@@ -8302,7 +8618,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-02-06T14:47:21.650Z",
+                                  "default": "2026-02-06T16:14:42.297Z",
                                   "type": "string"
                                 },
                                 "package_category": {}
@@ -8316,6 +8632,7 @@
                                 "price",
                                 "content",
                                 "order",
+                                "hasBadge",
                                 "publishedAt"
                               ],
                               "additionalProperties": false
@@ -8360,7 +8677,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-02-06T14:47:21.651Z",
+                                  "default": "2026-02-06T16:14:42.300Z",
                                   "type": "string"
                                 },
                                 "icon": {
@@ -8430,7 +8747,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-06T14:47:21.646Z",
+                                      "default": "2026-02-06T16:14:42.289Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -8516,7 +8833,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-06T14:47:21.646Z",
+                                      "default": "2026-02-06T16:14:42.289Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -8707,7 +9024,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.721Z",
+                          "default": "2026-02-06T16:14:42.378Z",
                           "type": "string"
                         },
                         "packages": {
@@ -8751,6 +9068,20 @@
                                 "minimum": -9007199254740991,
                                 "maximum": 9007199254740991
                               },
+                              "hasBadge": {
+                                "default": false,
+                                "anyOf": [
+                                  {
+                                    "type": "boolean"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "badgeLabel": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string"
                               },
@@ -8758,7 +9089,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.650Z",
+                                "default": "2026-02-06T16:14:42.297Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -8772,6 +9103,7 @@
                               "price",
                               "content",
                               "order",
+                              "hasBadge",
                               "publishedAt"
                             ],
                             "additionalProperties": false
@@ -8816,7 +9148,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.651Z",
+                                "default": "2026-02-06T16:14:42.300Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -8886,7 +9218,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.646Z",
+                                    "default": "2026-02-06T16:14:42.289Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -8972,7 +9304,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.646Z",
+                                    "default": "2026-02-06T16:14:42.289Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -9065,7 +9397,7 @@
                         "maximum": 9007199254740991
                       },
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.719Z",
+                        "default": "2026-02-06T16:14:42.377Z",
                         "type": "string"
                       },
                       "packages": {
@@ -9329,7 +9661,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.717Z",
+                          "default": "2026-02-06T16:14:42.374Z",
                           "type": "string"
                         },
                         "packages": {
@@ -9373,6 +9705,20 @@
                                 "minimum": -9007199254740991,
                                 "maximum": 9007199254740991
                               },
+                              "hasBadge": {
+                                "default": false,
+                                "anyOf": [
+                                  {
+                                    "type": "boolean"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "badgeLabel": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string"
                               },
@@ -9380,7 +9726,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.650Z",
+                                "default": "2026-02-06T16:14:42.297Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -9394,6 +9740,7 @@
                               "price",
                               "content",
                               "order",
+                              "hasBadge",
                               "publishedAt"
                             ],
                             "additionalProperties": false
@@ -9438,7 +9785,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.651Z",
+                                "default": "2026-02-06T16:14:42.300Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -9508,7 +9855,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.646Z",
+                                    "default": "2026-02-06T16:14:42.289Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -9594,7 +9941,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.646Z",
+                                    "default": "2026-02-06T16:14:42.289Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -9795,7 +10142,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.724Z",
+                          "default": "2026-02-06T16:14:42.382Z",
                           "type": "string"
                         },
                         "packages": {
@@ -9839,6 +10186,20 @@
                                 "minimum": -9007199254740991,
                                 "maximum": 9007199254740991
                               },
+                              "hasBadge": {
+                                "default": false,
+                                "anyOf": [
+                                  {
+                                    "type": "boolean"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "badgeLabel": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string"
                               },
@@ -9846,7 +10207,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.650Z",
+                                "default": "2026-02-06T16:14:42.297Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -9860,6 +10221,7 @@
                               "price",
                               "content",
                               "order",
+                              "hasBadge",
                               "publishedAt"
                             ],
                             "additionalProperties": false
@@ -9904,7 +10266,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.651Z",
+                                "default": "2026-02-06T16:14:42.300Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -9974,7 +10336,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.646Z",
+                                    "default": "2026-02-06T16:14:42.289Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -10060,7 +10422,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.646Z",
+                                    "default": "2026-02-06T16:14:42.289Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -10153,7 +10515,7 @@
                         "maximum": 9007199254740991
                       },
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.723Z",
+                        "default": "2026-02-06T16:14:42.381Z",
                         "type": "string"
                       },
                       "packages": {
@@ -10333,7 +10695,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.727Z",
+                          "default": "2026-02-06T16:14:42.385Z",
                           "type": "string"
                         },
                         "packages": {
@@ -10377,6 +10739,20 @@
                                 "minimum": -9007199254740991,
                                 "maximum": 9007199254740991
                               },
+                              "hasBadge": {
+                                "default": false,
+                                "anyOf": [
+                                  {
+                                    "type": "boolean"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "badgeLabel": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string"
                               },
@@ -10384,7 +10760,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.650Z",
+                                "default": "2026-02-06T16:14:42.297Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -10398,6 +10774,7 @@
                               "price",
                               "content",
                               "order",
+                              "hasBadge",
                               "publishedAt"
                             ],
                             "additionalProperties": false
@@ -10442,7 +10819,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.651Z",
+                                "default": "2026-02-06T16:14:42.300Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -10512,7 +10889,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.646Z",
+                                    "default": "2026-02-06T16:14:42.289Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -10598,7 +10975,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-06T14:47:21.646Z",
+                                    "default": "2026-02-06T16:14:42.289Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -10796,7 +11173,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.730Z",
+                          "default": "2026-02-06T16:14:42.389Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -10944,7 +11321,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.733Z",
+                          "default": "2026-02-06T16:14:42.395Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -10999,7 +11376,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.732Z",
+                        "default": "2026-02-06T16:14:42.395Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -11122,7 +11499,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.734Z",
+                          "default": "2026-02-06T16:14:42.397Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -11450,7 +11827,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-02-06T14:47:21.738Z",
+                            "default": "2026-02-06T16:14:42.403Z",
                             "type": "string"
                           }
                         },
@@ -11600,7 +11977,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.747Z",
+                          "default": "2026-02-06T16:14:42.409Z",
                           "type": "string"
                         }
                       },
@@ -11658,7 +12035,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:22.174Z",
+                        "default": "2026-02-06T16:14:42.905Z",
                         "type": "string"
                       }
                     },
@@ -11897,7 +12274,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.745Z",
+                          "default": "2026-02-06T16:14:42.406Z",
                           "type": "string"
                         }
                       },
@@ -12057,7 +12434,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.749Z",
+                          "default": "2026-02-06T16:14:42.412Z",
                           "type": "string"
                         }
                       },
@@ -12115,7 +12492,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.748Z",
+                        "default": "2026-02-06T16:14:42.411Z",
                         "type": "string"
                       }
                     },
@@ -12270,7 +12647,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.751Z",
+                          "default": "2026-02-06T16:14:42.414Z",
                           "type": "string"
                         }
                       },
@@ -12608,7 +12985,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-02-06T14:47:21.756Z",
+                            "default": "2026-02-06T16:14:42.419Z",
                             "type": "string"
                           },
                           "avatar": {
@@ -12678,7 +13055,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-06T14:47:21.646Z",
+                                "default": "2026-02-06T16:14:42.289Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -12854,7 +13231,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.761Z",
+                          "default": "2026-02-06T16:14:42.430Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -12924,7 +13301,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
@@ -13003,7 +13380,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.760Z",
+                        "default": "2026-02-06T16:14:42.429Z",
                         "type": "string"
                       },
                       "avatar": {}
@@ -13258,7 +13635,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.759Z",
+                          "default": "2026-02-06T16:14:42.426Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -13328,7 +13705,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
@@ -13514,7 +13891,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.764Z",
+                          "default": "2026-02-06T16:14:42.433Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -13584,7 +13961,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
@@ -13663,7 +14040,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-06T14:47:21.763Z",
+                        "default": "2026-02-06T16:14:42.432Z",
                         "type": "string"
                       },
                       "avatar": {}
@@ -13828,7 +14205,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-06T14:47:21.768Z",
+                          "default": "2026-02-06T16:14:42.436Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -13898,7 +14275,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-06T14:47:21.646Z",
+                              "default": "2026-02-06T16:14:42.289Z",
                               "type": "string"
                             },
                             "related": {}
