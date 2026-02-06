@@ -641,10 +641,12 @@ export interface ApiPackagePackage extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    badgeLabel: Schema.Attribute.String;
     content: Schema.Attribute.RichText & Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    hasBadge: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

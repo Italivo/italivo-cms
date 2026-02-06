@@ -42,6 +42,23 @@
       "type": "integer",
       "default": 1,
       "min": 1
+    },
+    "hasBadge": {
+      "type": "boolean",
+      "default": false
+    },
+    "badgeLabel": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "hasBadge"
+            },
+            true
+          ]
+        }
+      }
     }
   }
 }
