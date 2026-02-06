@@ -93,6 +93,10 @@ export interface BlocksPackages extends Struct.ComponentSchema {
   attributes: {
     background: Schema.Attribute.Enumeration<['transparent', 'secondary']> &
       Schema.Attribute.DefaultTo<'transparent'>;
+    buttonLink: Schema.Attribute.Component<'shared.button-link', false>;
+    content: Schema.Attribute.RichText;
+    disclaimer: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }

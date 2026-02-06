@@ -10,6 +10,20 @@
       "type": "string",
       "required": true
     },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "buttonLink": {
+      "type": "component",
+      "component": "shared.button-link",
+      "repeatable": false
+    },
+    "disclaimer": {
+      "type": "string"
+    },
     "background": {
       "type": "enumeration",
       "default": "transparent",
