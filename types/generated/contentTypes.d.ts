@@ -550,6 +550,44 @@ export interface ApiLearningPathLearningPath
   };
 }
 
+export interface ApiMethodPageMethodPage extends Struct.SingleTypeSchema {
+  collectionName: 'method_pages';
+  info: {
+    displayName: 'Method Page';
+    pluralName: 'method-pages';
+    singularName: 'method-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    blocks: Schema.Attribute.DynamicZone<
+      [
+        'blocks.testimonials',
+        'blocks.packages',
+        'blocks.learning-paths',
+        'blocks.hero',
+        'blocks.feature-list',
+        'blocks.content',
+        'blocks.content-with-image',
+      ]
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::method-page.method-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiPackageCategoryPackageCategory
   extends Struct.CollectionTypeSchema {
   collectionName: 'package_categories';
@@ -1251,6 +1289,7 @@ declare module '@strapi/strapi' {
       'admin::user': AdminUser;
       'api::home-page.home-page': ApiHomePageHomePage;
       'api::learning-path.learning-path': ApiLearningPathLearningPath;
+      'api::method-page.method-page': ApiMethodPageMethodPage;
       'api::package-category.package-category': ApiPackageCategoryPackageCategory;
       'api::package.package': ApiPackagePackage;
       'api::packages-page.packages-page': ApiPackagesPagePackagesPage;
