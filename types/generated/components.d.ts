@@ -101,6 +101,22 @@ export interface BlocksPackages extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksProcessSteps extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_process_steps';
+  info: {
+    displayName: 'Process Steps';
+    icon: 'bulletList';
+  };
+  attributes: {
+    background: Schema.Attribute.Enumeration<['transparent', 'secondary']> &
+      Schema.Attribute.DefaultTo<'transparent'>;
+    content: Schema.Attribute.RichText;
+    steps: Schema.Attribute.Component<'shared.process-step', true>;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface BlocksTestimonials extends Struct.ComponentSchema {
   collectionName: 'components_blocks_testimonials';
   info: {
@@ -155,6 +171,18 @@ export interface SharedLink extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedProcessStep extends Struct.ComponentSchema {
+  collectionName: 'components_shared_process_steps';
+  info: {
+    displayName: 'Process Step';
+    icon: 'cog';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -164,10 +192,12 @@ declare module '@strapi/strapi' {
       'blocks.hero': BlocksHero;
       'blocks.learning-paths': BlocksLearningPaths;
       'blocks.packages': BlocksPackages;
+      'blocks.process-steps': BlocksProcessSteps;
       'blocks.testimonials': BlocksTestimonials;
       'shared.button-link': SharedButtonLink;
       'shared.feature': SharedFeature;
       'shared.link': SharedLink;
+      'shared.process-step': SharedProcessStep;
     }
   }
 }

@@ -20,7 +20,8 @@
         "blocks.hero",
         "blocks.feature-list",
         "blocks.content",
-        "blocks.content-with-image"
+        "blocks.content-with-image",
+        "blocks.process-steps"
       ],
       "required": true,
       "min": 1

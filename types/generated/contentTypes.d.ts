@@ -487,6 +487,7 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
         'blocks.learning-paths',
         'blocks.packages',
         'blocks.content',
+        'blocks.process-steps',
       ]
     > &
       Schema.Attribute.Required &
@@ -570,6 +571,7 @@ export interface ApiMethodPageMethodPage extends Struct.SingleTypeSchema {
         'blocks.feature-list',
         'blocks.content',
         'blocks.content-with-image',
+        'blocks.process-steps',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;
@@ -696,6 +698,7 @@ export interface ApiPackagesPagePackagesPage extends Struct.SingleTypeSchema {
         'blocks.feature-list',
         'blocks.content',
         'blocks.content-with-image',
+        'blocks.process-steps',
       ]
     > &
       Schema.Attribute.Required &

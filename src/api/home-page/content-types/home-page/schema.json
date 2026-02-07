@@ -20,7 +20,8 @@
         "blocks.feature-list",
         "blocks.learning-paths",
         "blocks.packages",
-        "blocks.content"
+        "blocks.content",
+        "blocks.process-steps"
       ],
       "required": true,
       "min": 1
