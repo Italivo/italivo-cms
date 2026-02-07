@@ -58,7 +58,7 @@ const getPreviewPathname = (
     case "api::packages-page.packages-page":
       return "/packages";
     case "api::method-page.method-page":
-      return "/packages";
+      return "/method";
 
     // ** Handle pages with dynamic routes (Collection-Types Pages) **
     case "api::learning-path.learning-path": {
