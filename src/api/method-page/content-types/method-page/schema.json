@@ -21,7 +21,8 @@
         "blocks.feature-list",
         "blocks.content",
         "blocks.content-with-image",
-        "blocks.process-steps"
+        "blocks.process-steps",
+        "blocks.contact-form"
       ],
       "required": false
     }

@@ -1,5 +1,18 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface BlocksContactForm extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_contact_forms';
+  info: {
+    displayName: 'Contact Form';
+    icon: 'information';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface BlocksContent extends Struct.ComponentSchema {
   collectionName: 'components_blocks_contents';
   info: {
@@ -186,6 +199,7 @@ export interface SharedProcessStep extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'blocks.contact-form': BlocksContactForm;
       'blocks.content': BlocksContent;
       'blocks.content-with-image': BlocksContentWithImage;
       'blocks.feature-list': BlocksFeatureList;

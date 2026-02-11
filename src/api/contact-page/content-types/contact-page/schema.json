@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "packages_pages",
+  "collectionName": "contact_pages",
   "info": {
-    "singularName": "packages-page",
-    "pluralName": "packages-pages",
-    "displayName": "Packages Page"
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page"
   },
   "options": {
     "draftAndPublish": true
@@ -15,17 +15,15 @@
       "type": "dynamiczone",
       "components": [
         "blocks.testimonials",
+        "blocks.process-steps",
         "blocks.packages",
         "blocks.learning-paths",
         "blocks.hero",
         "blocks.feature-list",
         "blocks.content",
         "blocks.content-with-image",
-        "blocks.process-steps",
         "blocks.contact-form"
-      ],
-      "required": true,
-      "min": 1
+      ]
     }
   }
 }

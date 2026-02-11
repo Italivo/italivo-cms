@@ -21,7 +21,8 @@
         "blocks.learning-paths",
         "blocks.packages",
         "blocks.content",
-        "blocks.process-steps"
+        "blocks.process-steps",
+        "blocks.contact-form"
       ],
       "required": true,
       "min": 1

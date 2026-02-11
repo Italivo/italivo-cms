@@ -488,6 +488,7 @@ export interface ApiAboutPageAboutPage extends Struct.SingleTypeSchema {
         'blocks.feature-list',
         'blocks.content',
         'blocks.content-with-image',
+        'blocks.contact-form',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;
@@ -497,6 +498,46 @@ export interface ApiAboutPageAboutPage extends Struct.SingleTypeSchema {
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::about-page.about-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiContactPageContactPage extends Struct.SingleTypeSchema {
+  collectionName: 'contact_pages';
+  info: {
+    displayName: 'Contact Page';
+    pluralName: 'contact-pages';
+    singularName: 'contact-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    blocks: Schema.Attribute.DynamicZone<
+      [
+        'blocks.testimonials',
+        'blocks.process-steps',
+        'blocks.packages',
+        'blocks.learning-paths',
+        'blocks.hero',
+        'blocks.feature-list',
+        'blocks.content',
+        'blocks.content-with-image',
+        'blocks.contact-form',
+      ]
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::contact-page.contact-page'
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
@@ -527,6 +568,7 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
         'blocks.packages',
         'blocks.content',
         'blocks.process-steps',
+        'blocks.contact-form',
       ]
     > &
       Schema.Attribute.Required &
@@ -611,6 +653,7 @@ export interface ApiMethodPageMethodPage extends Struct.SingleTypeSchema {
         'blocks.content',
         'blocks.content-with-image',
         'blocks.process-steps',
+        'blocks.contact-form',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;
@@ -738,6 +781,7 @@ export interface ApiPackagesPagePackagesPage extends Struct.SingleTypeSchema {
         'blocks.content',
         'blocks.content-with-image',
         'blocks.process-steps',
+        'blocks.contact-form',
       ]
     > &
       Schema.Attribute.Required &
@@ -1083,6 +1127,7 @@ export interface PluginUploadFile extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     ext: Schema.Attribute.String;
+    focalPoint: Schema.Attribute.JSON;
     folder: Schema.Attribute.Relation<'manyToOne', 'plugin::upload.folder'> &
       Schema.Attribute.Private;
     folderPath: Schema.Attribute.String &
@@ -1332,6 +1377,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::about-page.about-page': ApiAboutPageAboutPage;
+      'api::contact-page.contact-page': ApiContactPageContactPage;
       'api::home-page.home-page': ApiHomePageHomePage;
       'api::learning-path.learning-path': ApiLearningPathLearningPath;
       'api::method-page.method-page': ApiMethodPageMethodPage;
