@@ -43,6 +43,19 @@
       "default": 1,
       "min": 1,
       "max": 5
+    },
+    "state": {
+      "type": "enumeration",
+      "default": "created",
+      "enum": [
+        "created",
+        "in-progress",
+        "done",
+        "rejected"
+      ]
+    },
+    "eta": {
+      "type": "date"
     }
   }
 }

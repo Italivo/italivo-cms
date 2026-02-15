@@ -613,6 +613,7 @@ export interface ApiIssueIssue extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     description: Schema.Attribute.RichText;
+    eta: Schema.Attribute.Date;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::issue.issue'> &
       Schema.Attribute.Private;
@@ -626,6 +627,10 @@ export interface ApiIssueIssue extends Struct.CollectionTypeSchema {
       > &
       Schema.Attribute.DefaultTo<1>;
     publishedAt: Schema.Attribute.DateTime;
+    state: Schema.Attribute.Enumeration<
+      ['created', 'in-progress', 'done', 'rejected']
+    > &
+      Schema.Attribute.DefaultTo<'created'>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     type: Schema.Attribute.Enumeration<['bug', 'enhancement', 'feature']> &
       Schema.Attribute.Required;
