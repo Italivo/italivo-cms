@@ -63,11 +63,13 @@ const getPreviewPathname = (
       return "/about";
     case "api::contact-page.contact-page":
       return "/contact";
+    case "api::learning-paths-page.learning-paths-page":
+      return "/learning-paths";
 
     // ** Handle pages with dynamic routes (Collection-Types Pages) **
     case "api::learning-path.learning-path": {
       if (!slug) {
-        return null; // There is no learning-paths single type page ATM!
+        return "/learning-paths";
       }
       return `/learning-paths/${slug}`;
     }

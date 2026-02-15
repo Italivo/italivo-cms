@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "learning_paths_pages",
+  "info": {
+    "singularName": "learning-paths-page",
+    "pluralName": "learning-paths-pages",
+    "displayName": "Learning Paths Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.testimonials",
+        "blocks.process-steps",
+        "blocks.packages",
+        "blocks.learning-paths",
+        "blocks.hero",
+        "blocks.feature-list",
+        "blocks.content",
+        "blocks.content-with-image",
+        "blocks.contact-form"
+      ]
+    }
+  }
+}

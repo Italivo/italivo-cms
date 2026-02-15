@@ -632,6 +632,47 @@ export interface ApiLearningPathLearningPath
   };
 }
 
+export interface ApiLearningPathsPageLearningPathsPage
+  extends Struct.SingleTypeSchema {
+  collectionName: 'learning_paths_pages';
+  info: {
+    displayName: 'Learning Paths Page';
+    pluralName: 'learning-paths-pages';
+    singularName: 'learning-paths-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    blocks: Schema.Attribute.DynamicZone<
+      [
+        'blocks.testimonials',
+        'blocks.process-steps',
+        'blocks.packages',
+        'blocks.learning-paths',
+        'blocks.hero',
+        'blocks.feature-list',
+        'blocks.content',
+        'blocks.content-with-image',
+        'blocks.contact-form',
+      ]
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::learning-paths-page.learning-paths-page'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiMethodPageMethodPage extends Struct.SingleTypeSchema {
   collectionName: 'method_pages';
   info: {
@@ -1380,6 +1421,7 @@ declare module '@strapi/strapi' {
       'api::contact-page.contact-page': ApiContactPageContactPage;
       'api::home-page.home-page': ApiHomePageHomePage;
       'api::learning-path.learning-path': ApiLearningPathLearningPath;
+      'api::learning-paths-page.learning-paths-page': ApiLearningPathsPageLearningPathsPage;
       'api::method-page.method-page': ApiMethodPageMethodPage;
       'api::package-category.package-category': ApiPackageCategoryPackageCategory;
       'api::package.package': ApiPackagePackage;
