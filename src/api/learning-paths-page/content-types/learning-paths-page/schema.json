@@ -22,7 +22,8 @@
         "blocks.feature-list",
         "blocks.content",
         "blocks.content-with-image",
-        "blocks.contact-form"
+        "blocks.contact-form",
+        "blocks.feature-icon-list"
       ]
     }
   }

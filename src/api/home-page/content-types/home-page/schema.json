@@ -22,7 +22,8 @@
         "blocks.packages",
         "blocks.content",
         "blocks.process-steps",
-        "blocks.contact-form"
+        "blocks.contact-form",
+        "blocks.feature-icon-list"
       ],
       "required": true,
       "min": 1

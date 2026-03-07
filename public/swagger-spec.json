@@ -1,7 +1,7 @@
 {
   "openapi": "3.1.0",
   "x-powered-by": "strapi",
-  "x-strapi-version": "5.35.0",
+  "x-strapi-version": "5.38.0",
   "info": {
     "title": "italivo-cms",
     "description": "API documentation for italivo-cms v0.1.0",
@@ -95,6 +95,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -131,7 +152,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.239Z",
+                          "default": "2026-03-07T12:53:28.361Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -242,6 +263,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -278,7 +320,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.248Z",
+                          "default": "2026-03-07T12:53:28.368Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -332,7 +374,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.246Z",
+                        "default": "2026-03-07T12:53:28.367Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -419,6 +461,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -455,7 +518,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.250Z",
+                          "default": "2026-03-07T12:53:28.371Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -587,6 +650,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -623,7 +707,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.254Z",
+                          "default": "2026-03-07T12:53:28.374Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -734,6 +818,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -770,7 +875,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.259Z",
+                          "default": "2026-03-07T12:53:28.376Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -824,7 +929,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.258Z",
+                        "default": "2026-03-07T12:53:28.376Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -911,6 +1016,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -947,7 +1073,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.261Z",
+                          "default": "2026-03-07T12:53:28.378Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -1079,6 +1205,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -1115,7 +1262,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.265Z",
+                          "default": "2026-03-07T12:53:28.381Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -1227,6 +1374,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -1263,7 +1431,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.268Z",
+                          "default": "2026-03-07T12:53:28.384Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -1318,7 +1486,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.267Z",
+                        "default": "2026-03-07T12:53:28.383Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -1405,6 +1573,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -1441,7 +1630,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.270Z",
+                          "default": "2026-03-07T12:53:28.386Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -1484,6 +1673,1999 @@
         },
         "tags": [
           "home-page"
+        ]
+      }
+    },
+    "/issues": {
+      "get": {
+        "operationId": "issue/get/issues",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "title",
+                  "type",
+                  "description",
+                  "priority",
+                  "state",
+                  "eta",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "filters",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "object",
+              "propertyNames": {
+                "type": "string",
+                "enum": [
+                  "title",
+                  "type",
+                  "description",
+                  "priority",
+                  "state",
+                  "eta",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              },
+              "additionalProperties": {}
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "_q",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string"
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "allOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "withCount": {
+                      "type": "boolean"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "page": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "pageSize": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        }
+                      },
+                      "required": [
+                        "page",
+                        "pageSize"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "start": {
+                          "type": "integer",
+                          "minimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "limit": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        }
+                      },
+                      "required": [
+                        "start",
+                        "limit"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "title",
+                    "type",
+                    "description",
+                    "priority",
+                    "state",
+                    "eta",
+                    "createdAt",
+                    "updatedAt",
+                    "publishedAt"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "title",
+                      "type",
+                      "description",
+                      "priority",
+                      "state",
+                      "eta",
+                      "createdAt",
+                      "updatedAt",
+                      "publishedAt"
+                    ]
+                  }
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string",
+                    "enum": [
+                      "title",
+                      "type",
+                      "description",
+                      "priority",
+                      "state",
+                      "eta",
+                      "createdAt",
+                      "updatedAt",
+                      "publishedAt"
+                    ]
+                  },
+                  "additionalProperties": {
+                    "type": "string",
+                    "enum": [
+                      "asc",
+                      "desc"
+                    ]
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "propertyNames": {
+                      "type": "string",
+                      "enum": [
+                        "title",
+                        "type",
+                        "description",
+                        "priority",
+                        "state",
+                        "eta",
+                        "createdAt",
+                        "updatedAt",
+                        "publishedAt"
+                      ]
+                    },
+                    "additionalProperties": {
+                      "type": "string",
+                      "enum": [
+                        "asc",
+                        "desc"
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "attachments"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "attachments"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "documentId": {
+                            "type": "string",
+                            "format": "uuid",
+                            "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                          },
+                          "id": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "number"
+                              }
+                            ]
+                          },
+                          "title": {
+                            "type": "string"
+                          },
+                          "type": {
+                            "type": "string",
+                            "enum": [
+                              "bug",
+                              "enhancement",
+                              "feature"
+                            ]
+                          },
+                          "description": {
+                            "type": "string"
+                          },
+                          "priority": {
+                            "default": 1,
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 5
+                          },
+                          "state": {
+                            "default": "created",
+                            "type": "string",
+                            "enum": [
+                              "created",
+                              "in-progress",
+                              "done",
+                              "rejected"
+                            ]
+                          },
+                          "eta": {
+                            "type": "string"
+                          },
+                          "createdAt": {
+                            "type": "string"
+                          },
+                          "updatedAt": {
+                            "type": "string"
+                          },
+                          "publishedAt": {
+                            "default": "2026-03-07T12:53:28.394Z",
+                            "type": "string"
+                          },
+                          "attachments": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "documentId": {
+                                  "type": "string",
+                                  "format": "uuid",
+                                  "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                                },
+                                "id": {
+                                  "anyOf": [
+                                    {
+                                      "type": "string"
+                                    },
+                                    {
+                                      "type": "number"
+                                    }
+                                  ]
+                                },
+                                "name": {
+                                  "type": "string"
+                                },
+                                "alternativeText": {
+                                  "type": "string"
+                                },
+                                "caption": {
+                                  "type": "string"
+                                },
+                                "focalPoint": {},
+                                "width": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                },
+                                "height": {
+                                  "type": "integer",
+                                  "minimum": -9007199254740991,
+                                  "maximum": 9007199254740991
+                                },
+                                "formats": {},
+                                "hash": {
+                                  "type": "string"
+                                },
+                                "ext": {
+                                  "type": "string"
+                                },
+                                "mime": {
+                                  "type": "string"
+                                },
+                                "size": {
+                                  "type": "number"
+                                },
+                                "url": {
+                                  "type": "string"
+                                },
+                                "previewUrl": {
+                                  "type": "string"
+                                },
+                                "provider": {
+                                  "type": "string"
+                                },
+                                "provider_metadata": {},
+                                "createdAt": {
+                                  "type": "string"
+                                },
+                                "updatedAt": {
+                                  "type": "string"
+                                },
+                                "publishedAt": {
+                                  "default": "2026-03-07T12:53:28.398Z",
+                                  "type": "string"
+                                },
+                                "related": {}
+                              },
+                              "required": [
+                                "documentId",
+                                "id",
+                                "name",
+                                "hash",
+                                "mime",
+                                "size",
+                                "url",
+                                "provider",
+                                "publishedAt",
+                                "related"
+                              ],
+                              "additionalProperties": false
+                            }
+                          }
+                        },
+                        "required": [
+                          "documentId",
+                          "id",
+                          "title",
+                          "type",
+                          "priority",
+                          "state",
+                          "publishedAt"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "issue"
+        ]
+      },
+      "post": {
+        "operationId": "issue/post/issues",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "title",
+                  "type",
+                  "description",
+                  "priority",
+                  "state",
+                  "eta",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "attachments"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "attachments"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "bug",
+                            "enhancement",
+                            "feature"
+                          ]
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "priority": {
+                          "default": 1,
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 5
+                        },
+                        "state": {
+                          "default": "created",
+                          "type": "string",
+                          "enum": [
+                            "created",
+                            "in-progress",
+                            "done",
+                            "rejected"
+                          ]
+                        },
+                        "eta": {
+                          "type": "string"
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-03-07T12:53:28.411Z",
+                          "type": "string"
+                        },
+                        "attachments": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "documentId": {
+                                "type": "string",
+                                "format": "uuid",
+                                "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                              },
+                              "id": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "number"
+                                  }
+                                ]
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "alternativeText": {
+                                "type": "string"
+                              },
+                              "caption": {
+                                "type": "string"
+                              },
+                              "focalPoint": {},
+                              "width": {
+                                "type": "integer",
+                                "minimum": -9007199254740991,
+                                "maximum": 9007199254740991
+                              },
+                              "height": {
+                                "type": "integer",
+                                "minimum": -9007199254740991,
+                                "maximum": 9007199254740991
+                              },
+                              "formats": {},
+                              "hash": {
+                                "type": "string"
+                              },
+                              "ext": {
+                                "type": "string"
+                              },
+                              "mime": {
+                                "type": "string"
+                              },
+                              "size": {
+                                "type": "number"
+                              },
+                              "url": {
+                                "type": "string"
+                              },
+                              "previewUrl": {
+                                "type": "string"
+                              },
+                              "provider": {
+                                "type": "string"
+                              },
+                              "provider_metadata": {},
+                              "createdAt": {
+                                "type": "string"
+                              },
+                              "updatedAt": {
+                                "type": "string"
+                              },
+                              "publishedAt": {
+                                "default": "2026-03-07T12:53:28.398Z",
+                                "type": "string"
+                              },
+                              "related": {}
+                            },
+                            "required": [
+                              "documentId",
+                              "id",
+                              "name",
+                              "hash",
+                              "mime",
+                              "size",
+                              "url",
+                              "provider",
+                              "publishedAt",
+                              "related"
+                            ],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "title",
+                        "type",
+                        "priority",
+                        "state",
+                        "publishedAt"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "issue"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "title": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "bug",
+                          "enhancement",
+                          "feature"
+                        ]
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "priority": {
+                        "default": 1,
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 5
+                      },
+                      "state": {
+                        "default": "created",
+                        "type": "string",
+                        "enum": [
+                          "created",
+                          "in-progress",
+                          "done",
+                          "rejected"
+                        ]
+                      },
+                      "eta": {
+                        "type": "string"
+                      },
+                      "publishedAt": {
+                        "default": "2026-03-07T12:53:28.410Z",
+                        "type": "string"
+                      },
+                      "attachments": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "required": [
+                      "title",
+                      "type",
+                      "priority",
+                      "state",
+                      "publishedAt"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "data"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "/issues/{id}": {
+      "get": {
+        "operationId": "issue/get/issues_by_id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "format": "uuid",
+              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+            }
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "title",
+                  "type",
+                  "description",
+                  "priority",
+                  "state",
+                  "eta",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "attachments"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "attachments"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "filters",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "object",
+              "propertyNames": {
+                "type": "string",
+                "enum": [
+                  "title",
+                  "type",
+                  "description",
+                  "priority",
+                  "state",
+                  "eta",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              },
+              "additionalProperties": {}
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "title",
+                    "type",
+                    "description",
+                    "priority",
+                    "state",
+                    "eta",
+                    "createdAt",
+                    "updatedAt",
+                    "publishedAt"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "title",
+                      "type",
+                      "description",
+                      "priority",
+                      "state",
+                      "eta",
+                      "createdAt",
+                      "updatedAt",
+                      "publishedAt"
+                    ]
+                  }
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string",
+                    "enum": [
+                      "title",
+                      "type",
+                      "description",
+                      "priority",
+                      "state",
+                      "eta",
+                      "createdAt",
+                      "updatedAt",
+                      "publishedAt"
+                    ]
+                  },
+                  "additionalProperties": {
+                    "type": "string",
+                    "enum": [
+                      "asc",
+                      "desc"
+                    ]
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "propertyNames": {
+                      "type": "string",
+                      "enum": [
+                        "title",
+                        "type",
+                        "description",
+                        "priority",
+                        "state",
+                        "eta",
+                        "createdAt",
+                        "updatedAt",
+                        "publishedAt"
+                      ]
+                    },
+                    "additionalProperties": {
+                      "type": "string",
+                      "enum": [
+                        "asc",
+                        "desc"
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "bug",
+                            "enhancement",
+                            "feature"
+                          ]
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "priority": {
+                          "default": 1,
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 5
+                        },
+                        "state": {
+                          "default": "created",
+                          "type": "string",
+                          "enum": [
+                            "created",
+                            "in-progress",
+                            "done",
+                            "rejected"
+                          ]
+                        },
+                        "eta": {
+                          "type": "string"
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-03-07T12:53:28.406Z",
+                          "type": "string"
+                        },
+                        "attachments": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "documentId": {
+                                "type": "string",
+                                "format": "uuid",
+                                "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                              },
+                              "id": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "number"
+                                  }
+                                ]
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "alternativeText": {
+                                "type": "string"
+                              },
+                              "caption": {
+                                "type": "string"
+                              },
+                              "focalPoint": {},
+                              "width": {
+                                "type": "integer",
+                                "minimum": -9007199254740991,
+                                "maximum": 9007199254740991
+                              },
+                              "height": {
+                                "type": "integer",
+                                "minimum": -9007199254740991,
+                                "maximum": 9007199254740991
+                              },
+                              "formats": {},
+                              "hash": {
+                                "type": "string"
+                              },
+                              "ext": {
+                                "type": "string"
+                              },
+                              "mime": {
+                                "type": "string"
+                              },
+                              "size": {
+                                "type": "number"
+                              },
+                              "url": {
+                                "type": "string"
+                              },
+                              "previewUrl": {
+                                "type": "string"
+                              },
+                              "provider": {
+                                "type": "string"
+                              },
+                              "provider_metadata": {},
+                              "createdAt": {
+                                "type": "string"
+                              },
+                              "updatedAt": {
+                                "type": "string"
+                              },
+                              "publishedAt": {
+                                "default": "2026-03-07T12:53:28.398Z",
+                                "type": "string"
+                              },
+                              "related": {}
+                            },
+                            "required": [
+                              "documentId",
+                              "id",
+                              "name",
+                              "hash",
+                              "mime",
+                              "size",
+                              "url",
+                              "provider",
+                              "publishedAt",
+                              "related"
+                            ],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "title",
+                        "type",
+                        "priority",
+                        "state",
+                        "publishedAt"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "issue"
+        ]
+      },
+      "put": {
+        "operationId": "issue/put/issues_by_id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "format": "uuid",
+              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+            }
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "title",
+                  "type",
+                  "description",
+                  "priority",
+                  "state",
+                  "eta",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "attachments"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "attachments"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "bug",
+                            "enhancement",
+                            "feature"
+                          ]
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "priority": {
+                          "default": 1,
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 5
+                        },
+                        "state": {
+                          "default": "created",
+                          "type": "string",
+                          "enum": [
+                            "created",
+                            "in-progress",
+                            "done",
+                            "rejected"
+                          ]
+                        },
+                        "eta": {
+                          "type": "string"
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-03-07T12:53:28.417Z",
+                          "type": "string"
+                        },
+                        "attachments": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "documentId": {
+                                "type": "string",
+                                "format": "uuid",
+                                "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                              },
+                              "id": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "number"
+                                  }
+                                ]
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "alternativeText": {
+                                "type": "string"
+                              },
+                              "caption": {
+                                "type": "string"
+                              },
+                              "focalPoint": {},
+                              "width": {
+                                "type": "integer",
+                                "minimum": -9007199254740991,
+                                "maximum": 9007199254740991
+                              },
+                              "height": {
+                                "type": "integer",
+                                "minimum": -9007199254740991,
+                                "maximum": 9007199254740991
+                              },
+                              "formats": {},
+                              "hash": {
+                                "type": "string"
+                              },
+                              "ext": {
+                                "type": "string"
+                              },
+                              "mime": {
+                                "type": "string"
+                              },
+                              "size": {
+                                "type": "number"
+                              },
+                              "url": {
+                                "type": "string"
+                              },
+                              "previewUrl": {
+                                "type": "string"
+                              },
+                              "provider": {
+                                "type": "string"
+                              },
+                              "provider_metadata": {},
+                              "createdAt": {
+                                "type": "string"
+                              },
+                              "updatedAt": {
+                                "type": "string"
+                              },
+                              "publishedAt": {
+                                "default": "2026-03-07T12:53:28.398Z",
+                                "type": "string"
+                              },
+                              "related": {}
+                            },
+                            "required": [
+                              "documentId",
+                              "id",
+                              "name",
+                              "hash",
+                              "mime",
+                              "size",
+                              "url",
+                              "provider",
+                              "publishedAt",
+                              "related"
+                            ],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "title",
+                        "type",
+                        "priority",
+                        "state",
+                        "publishedAt"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "issue"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "title": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "bug",
+                          "enhancement",
+                          "feature"
+                        ]
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "priority": {
+                        "default": 1,
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 5
+                      },
+                      "state": {
+                        "default": "created",
+                        "type": "string",
+                        "enum": [
+                          "created",
+                          "in-progress",
+                          "done",
+                          "rejected"
+                        ]
+                      },
+                      "eta": {
+                        "type": "string"
+                      },
+                      "publishedAt": {
+                        "default": "2026-03-07T12:53:28.415Z",
+                        "type": "string"
+                      },
+                      "attachments": {
+                        "type": "array",
+                        "items": {}
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "data"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "issue/delete/issues_by_id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "format": "uuid",
+              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+            }
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "title",
+                  "type",
+                  "description",
+                  "priority",
+                  "state",
+                  "eta",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "attachments"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "attachments"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "filters",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "object",
+              "propertyNames": {
+                "type": "string",
+                "enum": [
+                  "title",
+                  "type",
+                  "description",
+                  "priority",
+                  "state",
+                  "eta",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              },
+              "additionalProperties": {}
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "bug",
+                            "enhancement",
+                            "feature"
+                          ]
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "priority": {
+                          "default": 1,
+                          "type": "integer",
+                          "minimum": 1,
+                          "maximum": 5
+                        },
+                        "state": {
+                          "default": "created",
+                          "type": "string",
+                          "enum": [
+                            "created",
+                            "in-progress",
+                            "done",
+                            "rejected"
+                          ]
+                        },
+                        "eta": {
+                          "type": "string"
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "default": "2026-03-07T12:53:28.421Z",
+                          "type": "string"
+                        },
+                        "attachments": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "documentId": {
+                                "type": "string",
+                                "format": "uuid",
+                                "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                              },
+                              "id": {
+                                "anyOf": [
+                                  {
+                                    "type": "string"
+                                  },
+                                  {
+                                    "type": "number"
+                                  }
+                                ]
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "alternativeText": {
+                                "type": "string"
+                              },
+                              "caption": {
+                                "type": "string"
+                              },
+                              "focalPoint": {},
+                              "width": {
+                                "type": "integer",
+                                "minimum": -9007199254740991,
+                                "maximum": 9007199254740991
+                              },
+                              "height": {
+                                "type": "integer",
+                                "minimum": -9007199254740991,
+                                "maximum": 9007199254740991
+                              },
+                              "formats": {},
+                              "hash": {
+                                "type": "string"
+                              },
+                              "ext": {
+                                "type": "string"
+                              },
+                              "mime": {
+                                "type": "string"
+                              },
+                              "size": {
+                                "type": "number"
+                              },
+                              "url": {
+                                "type": "string"
+                              },
+                              "previewUrl": {
+                                "type": "string"
+                              },
+                              "provider": {
+                                "type": "string"
+                              },
+                              "provider_metadata": {},
+                              "createdAt": {
+                                "type": "string"
+                              },
+                              "updatedAt": {
+                                "type": "string"
+                              },
+                              "publishedAt": {
+                                "default": "2026-03-07T12:53:28.398Z",
+                                "type": "string"
+                              },
+                              "related": {}
+                            },
+                            "required": [
+                              "documentId",
+                              "id",
+                              "name",
+                              "hash",
+                              "mime",
+                              "size",
+                              "url",
+                              "provider",
+                              "publishedAt",
+                              "related"
+                            ],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "title",
+                        "type",
+                        "priority",
+                        "state",
+                        "publishedAt"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "issue"
         ]
       }
     },
@@ -1745,6 +3927,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -1795,7 +3998,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-02-15T11:19:45.277Z",
+                            "default": "2026-03-07T12:53:28.428Z",
                             "type": "string"
                           },
                           "icon": {
@@ -1866,7 +4069,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.281Z",
+                                "default": "2026-03-07T12:53:28.398Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -1953,7 +4156,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.281Z",
+                                "default": "2026-03-07T12:53:28.398Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -2006,7 +4209,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.284Z",
+                                "default": "2026-03-07T12:53:28.433Z",
                                 "type": "string"
                               },
                               "packages": {
@@ -2071,7 +4274,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-15T11:19:45.286Z",
+                                      "default": "2026-03-07T12:53:28.436Z",
                                       "type": "string"
                                     },
                                     "package_category": {}
@@ -2130,7 +4333,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-15T11:19:45.288Z",
+                                      "default": "2026-03-07T12:53:28.438Z",
                                       "type": "string"
                                     },
                                     "icon": {
@@ -2201,7 +4404,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-02-15T11:19:45.281Z",
+                                          "default": "2026-03-07T12:53:28.398Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -2288,7 +4491,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-02-15T11:19:45.281Z",
+                                          "default": "2026-03-07T12:53:28.398Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -2452,6 +4655,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -2500,7 +4724,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.300Z",
+                          "default": "2026-03-07T12:53:28.448Z",
                           "type": "string"
                         },
                         "icon": {
@@ -2571,7 +4795,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}
@@ -2658,7 +4882,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}
@@ -2711,7 +4935,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.284Z",
+                              "default": "2026-03-07T12:53:28.433Z",
                               "type": "string"
                             },
                             "packages": {
@@ -2776,7 +5000,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.286Z",
+                                    "default": "2026-03-07T12:53:28.436Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -2835,7 +5059,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.288Z",
+                                    "default": "2026-03-07T12:53:28.438Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -2906,7 +5130,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -2993,7 +5217,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3103,7 +5327,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.298Z",
+                        "default": "2026-03-07T12:53:28.446Z",
                         "type": "string"
                       },
                       "icon": {},
@@ -3331,6 +5555,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -3379,7 +5624,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.296Z",
+                          "default": "2026-03-07T12:53:28.444Z",
                           "type": "string"
                         },
                         "icon": {
@@ -3450,7 +5695,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}
@@ -3537,7 +5782,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}
@@ -3590,7 +5835,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.284Z",
+                              "default": "2026-03-07T12:53:28.433Z",
                               "type": "string"
                             },
                             "packages": {
@@ -3655,7 +5900,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.286Z",
+                                    "default": "2026-03-07T12:53:28.436Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -3714,7 +5959,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.288Z",
+                                    "default": "2026-03-07T12:53:28.438Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -3785,7 +6030,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -3872,7 +6117,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4046,6 +6291,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -4094,7 +6360,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.304Z",
+                          "default": "2026-03-07T12:53:28.453Z",
                           "type": "string"
                         },
                         "icon": {
@@ -4165,7 +6431,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}
@@ -4252,7 +6518,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}
@@ -4305,7 +6571,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.284Z",
+                              "default": "2026-03-07T12:53:28.433Z",
                               "type": "string"
                             },
                             "packages": {
@@ -4370,7 +6636,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.286Z",
+                                    "default": "2026-03-07T12:53:28.436Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -4429,7 +6695,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.288Z",
+                                    "default": "2026-03-07T12:53:28.438Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -4500,7 +6766,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4587,7 +6853,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -4697,7 +6963,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.302Z",
+                        "default": "2026-03-07T12:53:28.451Z",
                         "type": "string"
                       },
                       "icon": {},
@@ -4829,6 +7095,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -4877,7 +7164,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.306Z",
+                          "default": "2026-03-07T12:53:28.455Z",
                           "type": "string"
                         },
                         "icon": {
@@ -4948,7 +7235,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}
@@ -5035,7 +7322,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}
@@ -5088,7 +7375,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.284Z",
+                              "default": "2026-03-07T12:53:28.433Z",
                               "type": "string"
                             },
                             "packages": {
@@ -5153,7 +7440,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.286Z",
+                                    "default": "2026-03-07T12:53:28.436Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -5212,7 +7499,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.288Z",
+                                    "default": "2026-03-07T12:53:28.438Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -5283,7 +7570,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -5370,7 +7657,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -5546,6 +7833,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -5582,7 +7890,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.310Z",
+                          "default": "2026-03-07T12:53:28.459Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -5693,6 +8001,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -5729,7 +8058,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.312Z",
+                          "default": "2026-03-07T12:53:28.464Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -5783,7 +8112,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.311Z",
+                        "default": "2026-03-07T12:53:28.463Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -5870,6 +8199,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -5906,7 +8256,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.313Z",
+                          "default": "2026-03-07T12:53:28.466Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -6038,6 +8388,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -6074,7 +8445,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.316Z",
+                          "default": "2026-03-07T12:53:28.470Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -6185,6 +8556,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -6221,7 +8613,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.322Z",
+                          "default": "2026-03-07T12:53:28.473Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -6275,7 +8667,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.322Z",
+                        "default": "2026-03-07T12:53:28.472Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -6362,6 +8754,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -6398,7 +8811,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.324Z",
+                          "default": "2026-03-07T12:53:28.475Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -6721,6 +9134,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -6794,7 +9228,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-02-15T11:19:45.329Z",
+                            "default": "2026-03-07T12:53:28.482Z",
                             "type": "string"
                           },
                           "package_category": {
@@ -6831,7 +9265,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.284Z",
+                                "default": "2026-03-07T12:53:28.433Z",
                                 "type": "string"
                               },
                               "packages": {
@@ -6896,7 +9330,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-15T11:19:45.286Z",
+                                      "default": "2026-03-07T12:53:28.436Z",
                                       "type": "string"
                                     },
                                     "package_category": {}
@@ -6955,7 +9389,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-15T11:19:45.288Z",
+                                      "default": "2026-03-07T12:53:28.438Z",
                                       "type": "string"
                                     },
                                     "icon": {
@@ -7026,7 +9460,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-02-15T11:19:45.281Z",
+                                          "default": "2026-03-07T12:53:28.398Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -7113,7 +9547,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-02-15T11:19:45.281Z",
+                                          "default": "2026-03-07T12:53:28.398Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -7278,6 +9712,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -7349,7 +9804,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.338Z",
+                          "default": "2026-03-07T12:53:28.500Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -7386,7 +9841,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.284Z",
+                              "default": "2026-03-07T12:53:28.433Z",
                               "type": "string"
                             },
                             "packages": {
@@ -7451,7 +9906,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.286Z",
+                                    "default": "2026-03-07T12:53:28.436Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -7510,7 +9965,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.288Z",
+                                    "default": "2026-03-07T12:53:28.438Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -7581,7 +10036,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7668,7 +10123,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7810,7 +10265,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.337Z",
+                        "default": "2026-03-07T12:53:28.498Z",
                         "type": "string"
                       },
                       "package_category": {
@@ -8057,6 +10512,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -8128,7 +10604,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.334Z",
+                          "default": "2026-03-07T12:53:28.487Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -8165,7 +10641,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.284Z",
+                              "default": "2026-03-07T12:53:28.433Z",
                               "type": "string"
                             },
                             "packages": {
@@ -8230,7 +10706,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.286Z",
+                                    "default": "2026-03-07T12:53:28.436Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -8289,7 +10765,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.288Z",
+                                    "default": "2026-03-07T12:53:28.438Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -8360,7 +10836,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -8447,7 +10923,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -8622,6 +11098,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -8693,7 +11190,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.345Z",
+                          "default": "2026-03-07T12:53:28.505Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -8730,7 +11227,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.284Z",
+                              "default": "2026-03-07T12:53:28.433Z",
                               "type": "string"
                             },
                             "packages": {
@@ -8795,7 +11292,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.286Z",
+                                    "default": "2026-03-07T12:53:28.436Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -8854,7 +11351,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.288Z",
+                                    "default": "2026-03-07T12:53:28.438Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -8925,7 +11422,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -9012,7 +11509,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -9154,7 +11651,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.341Z",
+                        "default": "2026-03-07T12:53:28.503Z",
                         "type": "string"
                       },
                       "package_category": {
@@ -9288,6 +11785,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -9359,7 +11877,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.348Z",
+                          "default": "2026-03-07T12:53:28.509Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -9396,7 +11914,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.284Z",
+                              "default": "2026-03-07T12:53:28.433Z",
                               "type": "string"
                             },
                             "packages": {
@@ -9461,7 +11979,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.286Z",
+                                    "default": "2026-03-07T12:53:28.436Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -9520,7 +12038,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.288Z",
+                                    "default": "2026-03-07T12:53:28.438Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -9591,7 +12109,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -9678,7 +12196,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-02-15T11:19:45.281Z",
+                                        "default": "2026-03-07T12:53:28.398Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -10012,6 +12530,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -10059,7 +12598,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-02-15T11:19:45.352Z",
+                            "default": "2026-03-07T12:53:28.513Z",
                             "type": "string"
                           },
                           "packages": {
@@ -10124,7 +12663,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-02-15T11:19:45.286Z",
+                                  "default": "2026-03-07T12:53:28.436Z",
                                   "type": "string"
                                 },
                                 "package_category": {}
@@ -10183,7 +12722,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-02-15T11:19:45.288Z",
+                                  "default": "2026-03-07T12:53:28.438Z",
                                   "type": "string"
                                 },
                                 "icon": {
@@ -10254,7 +12793,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-15T11:19:45.281Z",
+                                      "default": "2026-03-07T12:53:28.398Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -10341,7 +12880,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-02-15T11:19:45.281Z",
+                                      "default": "2026-03-07T12:53:28.398Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -10487,6 +13026,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -10532,7 +13092,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.358Z",
+                          "default": "2026-03-07T12:53:28.524Z",
                           "type": "string"
                         },
                         "packages": {
@@ -10597,7 +13157,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.286Z",
+                                "default": "2026-03-07T12:53:28.436Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -10656,7 +13216,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.288Z",
+                                "default": "2026-03-07T12:53:28.438Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -10727,7 +13287,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.281Z",
+                                    "default": "2026-03-07T12:53:28.398Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -10814,7 +13374,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.281Z",
+                                    "default": "2026-03-07T12:53:28.398Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -10907,7 +13467,7 @@
                         "maximum": 9007199254740991
                       },
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.357Z",
+                        "default": "2026-03-07T12:53:28.523Z",
                         "type": "string"
                       },
                       "packages": {
@@ -11126,6 +13686,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -11171,7 +13752,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.355Z",
+                          "default": "2026-03-07T12:53:28.519Z",
                           "type": "string"
                         },
                         "packages": {
@@ -11236,7 +13817,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.286Z",
+                                "default": "2026-03-07T12:53:28.436Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -11295,7 +13876,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.288Z",
+                                "default": "2026-03-07T12:53:28.438Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -11366,7 +13947,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.281Z",
+                                    "default": "2026-03-07T12:53:28.398Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -11453,7 +14034,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.281Z",
+                                    "default": "2026-03-07T12:53:28.398Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -11609,6 +14190,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -11654,7 +14256,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.361Z",
+                          "default": "2026-03-07T12:53:28.530Z",
                           "type": "string"
                         },
                         "packages": {
@@ -11719,7 +14321,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.286Z",
+                                "default": "2026-03-07T12:53:28.436Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -11778,7 +14380,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.288Z",
+                                "default": "2026-03-07T12:53:28.438Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -11849,7 +14451,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.281Z",
+                                    "default": "2026-03-07T12:53:28.398Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -11936,7 +14538,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.281Z",
+                                    "default": "2026-03-07T12:53:28.398Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -12029,7 +14631,7 @@
                         "maximum": 9007199254740991
                       },
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.360Z",
+                        "default": "2026-03-07T12:53:28.526Z",
                         "type": "string"
                       },
                       "packages": {
@@ -12164,6 +14766,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -12209,7 +14832,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.363Z",
+                          "default": "2026-03-07T12:53:28.533Z",
                           "type": "string"
                         },
                         "packages": {
@@ -12274,7 +14897,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.286Z",
+                                "default": "2026-03-07T12:53:28.436Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -12333,7 +14956,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.288Z",
+                                "default": "2026-03-07T12:53:28.438Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -12404,7 +15027,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.281Z",
+                                    "default": "2026-03-07T12:53:28.398Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -12491,7 +15114,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-02-15T11:19:45.281Z",
+                                    "default": "2026-03-07T12:53:28.398Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -12653,6 +15276,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -12689,7 +15333,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.366Z",
+                          "default": "2026-03-07T12:53:28.536Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -12801,6 +15445,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -12837,7 +15502,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.371Z",
+                          "default": "2026-03-07T12:53:28.538Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -12892,7 +15557,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.370Z",
+                        "default": "2026-03-07T12:53:28.537Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -12979,6 +15644,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -13015,7 +15701,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.372Z",
+                          "default": "2026-03-07T12:53:28.540Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -13299,6 +15985,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -13343,7 +16050,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-02-15T11:19:45.376Z",
+                            "default": "2026-03-07T12:53:28.543Z",
                             "type": "string"
                           }
                         },
@@ -13451,6 +16158,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -13493,7 +16221,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.380Z",
+                          "default": "2026-03-07T12:53:28.547Z",
                           "type": "string"
                         }
                       },
@@ -13551,7 +16279,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.850Z",
+                        "default": "2026-03-07T12:53:29.065Z",
                         "type": "string"
                       }
                     },
@@ -13748,6 +16476,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -13790,7 +16539,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.378Z",
+                          "default": "2026-03-07T12:53:28.545Z",
                           "type": "string"
                         }
                       },
@@ -13908,6 +16657,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -13950,7 +16720,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.382Z",
+                          "default": "2026-03-07T12:53:28.553Z",
                           "type": "string"
                         }
                       },
@@ -14008,7 +16778,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.382Z",
+                        "default": "2026-03-07T12:53:28.549Z",
                         "type": "string"
                       }
                     },
@@ -14121,6 +16891,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -14163,7 +16954,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.384Z",
+                          "default": "2026-03-07T12:53:28.554Z",
                           "type": "string"
                         }
                       },
@@ -14454,6 +17245,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -14501,7 +17313,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-02-15T11:19:45.388Z",
+                            "default": "2026-03-07T12:53:28.558Z",
                             "type": "string"
                           },
                           "avatar": {
@@ -14572,7 +17384,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-02-15T11:19:45.281Z",
+                                "default": "2026-03-07T12:53:28.398Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -14703,6 +17515,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -14748,7 +17581,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.398Z",
+                          "default": "2026-03-07T12:53:28.563Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -14819,7 +17652,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}
@@ -14898,7 +17731,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.397Z",
+                        "default": "2026-03-07T12:53:28.562Z",
                         "type": "string"
                       },
                       "avatar": {}
@@ -15108,6 +17941,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -15153,7 +18007,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.395Z",
+                          "default": "2026-03-07T12:53:28.560Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -15224,7 +18078,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}
@@ -15365,6 +18219,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -15410,7 +18285,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.400Z",
+                          "default": "2026-03-07T12:53:28.565Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -15481,7 +18356,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}
@@ -15560,7 +18435,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-02-15T11:19:45.399Z",
+                        "default": "2026-03-07T12:53:28.564Z",
                         "type": "string"
                       },
                       "avatar": {}
@@ -15680,6 +18555,27 @@
               ]
             },
             "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
           }
         ],
         "responses": {
@@ -15725,7 +18621,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-02-15T11:19:45.402Z",
+                          "default": "2026-03-07T12:53:28.567Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -15796,7 +18692,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-02-15T11:19:45.281Z",
+                              "default": "2026-03-07T12:53:28.398Z",
                               "type": "string"
                             },
                             "related": {}

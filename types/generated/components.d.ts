@@ -52,6 +52,22 @@ export interface BlocksContentWithImage extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksFeatureIconList extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_feature_icon_lists';
+  info: {
+    displayName: 'Feature Icon List';
+    icon: 'bulletList';
+  };
+  attributes: {
+    background: Schema.Attribute.Enumeration<['transparent', 'secondary']>;
+    content: Schema.Attribute.RichText;
+    features: Schema.Attribute.Component<'shared.feature-icon', true>;
+    image: Schema.Attribute.Media<'images'>;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface BlocksFeatureList extends Struct.ComponentSchema {
   collectionName: 'components_blocks_feature_lists';
   info: {
@@ -170,6 +186,19 @@ export interface SharedFeature extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedFeatureIcon extends Struct.ComponentSchema {
+  collectionName: 'components_shared_feature_icons';
+  info: {
+    displayName: 'Feature Icon';
+    icon: 'star';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    icon: Schema.Attribute.Media<'images'>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface SharedLink extends Struct.ComponentSchema {
   collectionName: 'components_shared_links';
   info: {
@@ -202,6 +231,7 @@ declare module '@strapi/strapi' {
       'blocks.contact-form': BlocksContactForm;
       'blocks.content': BlocksContent;
       'blocks.content-with-image': BlocksContentWithImage;
+      'blocks.feature-icon-list': BlocksFeatureIconList;
       'blocks.feature-list': BlocksFeatureList;
       'blocks.hero': BlocksHero;
       'blocks.learning-paths': BlocksLearningPaths;
@@ -210,6 +240,7 @@ declare module '@strapi/strapi' {
       'blocks.testimonials': BlocksTestimonials;
       'shared.button-link': SharedButtonLink;
       'shared.feature': SharedFeature;
+      'shared.feature-icon': SharedFeatureIcon;
       'shared.link': SharedLink;
       'shared.process-step': SharedProcessStep;
     }

@@ -489,6 +489,7 @@ export interface ApiAboutPageAboutPage extends Struct.SingleTypeSchema {
         'blocks.content',
         'blocks.content-with-image',
         'blocks.contact-form',
+        'blocks.feature-icon-list',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;
@@ -529,6 +530,7 @@ export interface ApiContactPageContactPage extends Struct.SingleTypeSchema {
         'blocks.content',
         'blocks.content-with-image',
         'blocks.contact-form',
+        'blocks.feature-icon-list',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;
@@ -569,6 +571,7 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
         'blocks.content',
         'blocks.process-steps',
         'blocks.contact-form',
+        'blocks.feature-icon-list',
       ]
     > &
       Schema.Attribute.Required &
@@ -701,6 +704,7 @@ export interface ApiLearningPathsPageLearningPathsPage
         'blocks.content',
         'blocks.content-with-image',
         'blocks.contact-form',
+        'blocks.feature-icon-list',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;
@@ -741,6 +745,7 @@ export interface ApiMethodPageMethodPage extends Struct.SingleTypeSchema {
         'blocks.content-with-image',
         'blocks.process-steps',
         'blocks.contact-form',
+        'blocks.feature-icon-list',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;
@@ -869,6 +874,7 @@ export interface ApiPackagesPagePackagesPage extends Struct.SingleTypeSchema {
         'blocks.content-with-image',
         'blocks.process-steps',
         'blocks.contact-form',
+        'blocks.feature-icon-list',
       ]
     > &
       Schema.Attribute.Required &

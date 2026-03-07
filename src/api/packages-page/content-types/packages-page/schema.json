@@ -22,7 +22,8 @@
         "blocks.content",
         "blocks.content-with-image",
         "blocks.process-steps",
-        "blocks.contact-form"
+        "blocks.contact-form",
+        "blocks.feature-icon-list"
       ],
       "required": true,
       "min": 1
