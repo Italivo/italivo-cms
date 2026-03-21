@@ -1,7 +1,7 @@
 {
   "openapi": "3.1.0",
   "x-powered-by": "strapi",
-  "x-strapi-version": "5.38.0",
+  "x-strapi-version": "5.40.0",
   "info": {
     "title": "italivo-cms",
     "description": "API documentation for italivo-cms v0.1.0",
@@ -152,7 +152,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.361Z",
+                          "default": "2026-03-21T17:18:13.679Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -320,7 +320,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.368Z",
+                          "default": "2026-03-21T17:18:13.686Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -374,7 +374,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.367Z",
+                        "default": "2026-03-21T17:18:13.685Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -518,7 +518,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.371Z",
+                          "default": "2026-03-21T17:18:13.688Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -707,7 +707,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.374Z",
+                          "default": "2026-03-21T17:18:13.691Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -875,7 +875,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.376Z",
+                          "default": "2026-03-21T17:18:13.694Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -929,7 +929,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.376Z",
+                        "default": "2026-03-21T17:18:13.693Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -1073,7 +1073,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.378Z",
+                          "default": "2026-03-21T17:18:13.696Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -1262,7 +1262,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.381Z",
+                          "default": "2026-03-21T17:18:13.699Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -1431,7 +1431,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.384Z",
+                          "default": "2026-03-21T17:18:13.702Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -1486,7 +1486,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.383Z",
+                        "default": "2026-03-21T17:18:13.701Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -1630,7 +1630,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.386Z",
+                          "default": "2026-03-21T17:18:13.703Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -2034,7 +2034,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-03-07T12:53:28.394Z",
+                            "default": "2026-03-21T17:18:13.710Z",
                             "type": "string"
                           },
                           "attachments": {
@@ -2107,7 +2107,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-03-07T12:53:28.398Z",
+                                  "default": "2026-03-21T17:18:13.713Z",
                                   "type": "string"
                                 },
                                 "related": {}
@@ -2332,7 +2332,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.411Z",
+                          "default": "2026-03-21T17:18:13.725Z",
                           "type": "string"
                         },
                         "attachments": {
@@ -2405,7 +2405,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.398Z",
+                                "default": "2026-03-21T17:18:13.713Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -2509,7 +2509,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.410Z",
+                        "default": "2026-03-21T17:18:13.723Z",
                         "type": "string"
                       },
                       "attachments": {
@@ -2830,7 +2830,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.406Z",
+                          "default": "2026-03-21T17:18:13.721Z",
                           "type": "string"
                         },
                         "attachments": {
@@ -2903,7 +2903,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.398Z",
+                                "default": "2026-03-21T17:18:13.713Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -3138,7 +3138,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.417Z",
+                          "default": "2026-03-21T17:18:13.729Z",
                           "type": "string"
                         },
                         "attachments": {
@@ -3211,7 +3211,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.398Z",
+                                "default": "2026-03-21T17:18:13.713Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -3315,7 +3315,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.415Z",
+                        "default": "2026-03-21T17:18:13.728Z",
                         "type": "string"
                       },
                       "attachments": {
@@ -3534,7 +3534,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.421Z",
+                          "default": "2026-03-21T17:18:13.732Z",
                           "type": "string"
                         },
                         "attachments": {
@@ -3607,7 +3607,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.398Z",
+                                "default": "2026-03-21T17:18:13.713Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -3998,7 +3998,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-03-07T12:53:28.428Z",
+                            "default": "2026-03-21T17:18:13.737Z",
                             "type": "string"
                           },
                           "icon": {
@@ -4069,7 +4069,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.398Z",
+                                "default": "2026-03-21T17:18:13.713Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -4156,7 +4156,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.398Z",
+                                "default": "2026-03-21T17:18:13.713Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -4209,7 +4209,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.433Z",
+                                "default": "2026-03-21T17:18:13.741Z",
                                 "type": "string"
                               },
                               "packages": {
@@ -4274,7 +4274,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-03-07T12:53:28.436Z",
+                                      "default": "2026-03-21T17:18:13.744Z",
                                       "type": "string"
                                     },
                                     "package_category": {}
@@ -4333,7 +4333,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-03-07T12:53:28.438Z",
+                                      "default": "2026-03-21T17:18:13.745Z",
                                       "type": "string"
                                     },
                                     "icon": {
@@ -4404,7 +4404,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-03-07T12:53:28.398Z",
+                                          "default": "2026-03-21T17:18:13.713Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -4491,7 +4491,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-03-07T12:53:28.398Z",
+                                          "default": "2026-03-21T17:18:13.713Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -4724,7 +4724,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.448Z",
+                          "default": "2026-03-21T17:18:13.753Z",
                           "type": "string"
                         },
                         "icon": {
@@ -4795,7 +4795,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -4882,7 +4882,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -4935,7 +4935,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.433Z",
+                              "default": "2026-03-21T17:18:13.741Z",
                               "type": "string"
                             },
                             "packages": {
@@ -5000,7 +5000,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.436Z",
+                                    "default": "2026-03-21T17:18:13.744Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -5059,7 +5059,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.438Z",
+                                    "default": "2026-03-21T17:18:13.745Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -5130,7 +5130,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -5217,7 +5217,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -5327,7 +5327,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.446Z",
+                        "default": "2026-03-21T17:18:13.752Z",
                         "type": "string"
                       },
                       "icon": {},
@@ -5624,7 +5624,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.444Z",
+                          "default": "2026-03-21T17:18:13.750Z",
                           "type": "string"
                         },
                         "icon": {
@@ -5695,7 +5695,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -5782,7 +5782,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -5835,7 +5835,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.433Z",
+                              "default": "2026-03-21T17:18:13.741Z",
                               "type": "string"
                             },
                             "packages": {
@@ -5900,7 +5900,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.436Z",
+                                    "default": "2026-03-21T17:18:13.744Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -5959,7 +5959,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.438Z",
+                                    "default": "2026-03-21T17:18:13.745Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -6030,7 +6030,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6117,7 +6117,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6360,7 +6360,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.453Z",
+                          "default": "2026-03-21T17:18:13.757Z",
                           "type": "string"
                         },
                         "icon": {
@@ -6431,7 +6431,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -6518,7 +6518,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -6571,7 +6571,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.433Z",
+                              "default": "2026-03-21T17:18:13.741Z",
                               "type": "string"
                             },
                             "packages": {
@@ -6636,7 +6636,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.436Z",
+                                    "default": "2026-03-21T17:18:13.744Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -6695,7 +6695,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.438Z",
+                                    "default": "2026-03-21T17:18:13.745Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -6766,7 +6766,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6853,7 +6853,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -6963,7 +6963,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.451Z",
+                        "default": "2026-03-21T17:18:13.756Z",
                         "type": "string"
                       },
                       "icon": {},
@@ -7164,7 +7164,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.455Z",
+                          "default": "2026-03-21T17:18:13.760Z",
                           "type": "string"
                         },
                         "icon": {
@@ -7235,7 +7235,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -7322,7 +7322,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -7375,7 +7375,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.433Z",
+                              "default": "2026-03-21T17:18:13.741Z",
                               "type": "string"
                             },
                             "packages": {
@@ -7440,7 +7440,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.436Z",
+                                    "default": "2026-03-21T17:18:13.744Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -7499,7 +7499,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.438Z",
+                                    "default": "2026-03-21T17:18:13.745Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -7570,7 +7570,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7657,7 +7657,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -7890,7 +7890,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.459Z",
+                          "default": "2026-03-21T17:18:13.763Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -8058,7 +8058,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.464Z",
+                          "default": "2026-03-21T17:18:13.768Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -8112,7 +8112,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.463Z",
+                        "default": "2026-03-21T17:18:13.767Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -8256,7 +8256,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.466Z",
+                          "default": "2026-03-21T17:18:13.770Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -8445,7 +8445,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.470Z",
+                          "default": "2026-03-21T17:18:13.772Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -8613,7 +8613,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.473Z",
+                          "default": "2026-03-21T17:18:13.774Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -8667,7 +8667,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.472Z",
+                        "default": "2026-03-21T17:18:13.774Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -8811,7 +8811,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.475Z",
+                          "default": "2026-03-21T17:18:13.776Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -9228,7 +9228,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-03-07T12:53:28.482Z",
+                            "default": "2026-03-21T17:18:13.781Z",
                             "type": "string"
                           },
                           "package_category": {
@@ -9265,7 +9265,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.433Z",
+                                "default": "2026-03-21T17:18:13.741Z",
                                 "type": "string"
                               },
                               "packages": {
@@ -9330,7 +9330,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-03-07T12:53:28.436Z",
+                                      "default": "2026-03-21T17:18:13.744Z",
                                       "type": "string"
                                     },
                                     "package_category": {}
@@ -9389,7 +9389,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-03-07T12:53:28.438Z",
+                                      "default": "2026-03-21T17:18:13.745Z",
                                       "type": "string"
                                     },
                                     "icon": {
@@ -9460,7 +9460,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-03-07T12:53:28.398Z",
+                                          "default": "2026-03-21T17:18:13.713Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -9547,7 +9547,7 @@
                                           "type": "string"
                                         },
                                         "publishedAt": {
-                                          "default": "2026-03-07T12:53:28.398Z",
+                                          "default": "2026-03-21T17:18:13.713Z",
                                           "type": "string"
                                         },
                                         "related": {}
@@ -9804,7 +9804,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.500Z",
+                          "default": "2026-03-21T17:18:13.796Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -9841,7 +9841,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.433Z",
+                              "default": "2026-03-21T17:18:13.741Z",
                               "type": "string"
                             },
                             "packages": {
@@ -9906,7 +9906,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.436Z",
+                                    "default": "2026-03-21T17:18:13.744Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -9965,7 +9965,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.438Z",
+                                    "default": "2026-03-21T17:18:13.745Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -10036,7 +10036,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -10123,7 +10123,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -10265,7 +10265,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.498Z",
+                        "default": "2026-03-21T17:18:13.795Z",
                         "type": "string"
                       },
                       "package_category": {
@@ -10604,7 +10604,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.487Z",
+                          "default": "2026-03-21T17:18:13.785Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -10641,7 +10641,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.433Z",
+                              "default": "2026-03-21T17:18:13.741Z",
                               "type": "string"
                             },
                             "packages": {
@@ -10706,7 +10706,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.436Z",
+                                    "default": "2026-03-21T17:18:13.744Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -10765,7 +10765,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.438Z",
+                                    "default": "2026-03-21T17:18:13.745Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -10836,7 +10836,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -10923,7 +10923,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -11190,7 +11190,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.505Z",
+                          "default": "2026-03-21T17:18:13.801Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -11227,7 +11227,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.433Z",
+                              "default": "2026-03-21T17:18:13.741Z",
                               "type": "string"
                             },
                             "packages": {
@@ -11292,7 +11292,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.436Z",
+                                    "default": "2026-03-21T17:18:13.744Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -11351,7 +11351,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.438Z",
+                                    "default": "2026-03-21T17:18:13.745Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -11422,7 +11422,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -11509,7 +11509,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -11651,7 +11651,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.503Z",
+                        "default": "2026-03-21T17:18:13.799Z",
                         "type": "string"
                       },
                       "package_category": {
@@ -11877,7 +11877,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.509Z",
+                          "default": "2026-03-21T17:18:13.804Z",
                           "type": "string"
                         },
                         "package_category": {
@@ -11914,7 +11914,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.433Z",
+                              "default": "2026-03-21T17:18:13.741Z",
                               "type": "string"
                             },
                             "packages": {
@@ -11979,7 +11979,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.436Z",
+                                    "default": "2026-03-21T17:18:13.744Z",
                                     "type": "string"
                                   },
                                   "package_category": {}
@@ -12038,7 +12038,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.438Z",
+                                    "default": "2026-03-21T17:18:13.745Z",
                                     "type": "string"
                                   },
                                   "icon": {
@@ -12109,7 +12109,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -12196,7 +12196,7 @@
                                         "type": "string"
                                       },
                                       "publishedAt": {
-                                        "default": "2026-03-07T12:53:28.398Z",
+                                        "default": "2026-03-21T17:18:13.713Z",
                                         "type": "string"
                                       },
                                       "related": {}
@@ -12598,7 +12598,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-03-07T12:53:28.513Z",
+                            "default": "2026-03-21T17:18:13.808Z",
                             "type": "string"
                           },
                           "packages": {
@@ -12663,7 +12663,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-03-07T12:53:28.436Z",
+                                  "default": "2026-03-21T17:18:13.744Z",
                                   "type": "string"
                                 },
                                 "package_category": {}
@@ -12722,7 +12722,7 @@
                                   "type": "string"
                                 },
                                 "publishedAt": {
-                                  "default": "2026-03-07T12:53:28.438Z",
+                                  "default": "2026-03-21T17:18:13.745Z",
                                   "type": "string"
                                 },
                                 "icon": {
@@ -12793,7 +12793,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-03-07T12:53:28.398Z",
+                                      "default": "2026-03-21T17:18:13.713Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -12880,7 +12880,7 @@
                                       "type": "string"
                                     },
                                     "publishedAt": {
-                                      "default": "2026-03-07T12:53:28.398Z",
+                                      "default": "2026-03-21T17:18:13.713Z",
                                       "type": "string"
                                     },
                                     "related": {}
@@ -13092,7 +13092,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.524Z",
+                          "default": "2026-03-21T17:18:13.814Z",
                           "type": "string"
                         },
                         "packages": {
@@ -13157,7 +13157,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.436Z",
+                                "default": "2026-03-21T17:18:13.744Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -13216,7 +13216,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.438Z",
+                                "default": "2026-03-21T17:18:13.745Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -13287,7 +13287,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.398Z",
+                                    "default": "2026-03-21T17:18:13.713Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -13374,7 +13374,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.398Z",
+                                    "default": "2026-03-21T17:18:13.713Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -13467,7 +13467,7 @@
                         "maximum": 9007199254740991
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.523Z",
+                        "default": "2026-03-21T17:18:13.813Z",
                         "type": "string"
                       },
                       "packages": {
@@ -13752,7 +13752,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.519Z",
+                          "default": "2026-03-21T17:18:13.811Z",
                           "type": "string"
                         },
                         "packages": {
@@ -13817,7 +13817,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.436Z",
+                                "default": "2026-03-21T17:18:13.744Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -13876,7 +13876,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.438Z",
+                                "default": "2026-03-21T17:18:13.745Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -13947,7 +13947,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.398Z",
+                                    "default": "2026-03-21T17:18:13.713Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -14034,7 +14034,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.398Z",
+                                    "default": "2026-03-21T17:18:13.713Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -14256,7 +14256,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.530Z",
+                          "default": "2026-03-21T17:18:13.820Z",
                           "type": "string"
                         },
                         "packages": {
@@ -14321,7 +14321,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.436Z",
+                                "default": "2026-03-21T17:18:13.744Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -14380,7 +14380,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.438Z",
+                                "default": "2026-03-21T17:18:13.745Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -14451,7 +14451,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.398Z",
+                                    "default": "2026-03-21T17:18:13.713Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -14538,7 +14538,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.398Z",
+                                    "default": "2026-03-21T17:18:13.713Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -14631,7 +14631,7 @@
                         "maximum": 9007199254740991
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.526Z",
+                        "default": "2026-03-21T17:18:13.816Z",
                         "type": "string"
                       },
                       "packages": {
@@ -14832,7 +14832,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.533Z",
+                          "default": "2026-03-21T17:18:13.822Z",
                           "type": "string"
                         },
                         "packages": {
@@ -14897,7 +14897,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.436Z",
+                                "default": "2026-03-21T17:18:13.744Z",
                                 "type": "string"
                               },
                               "package_category": {}
@@ -14956,7 +14956,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.438Z",
+                                "default": "2026-03-21T17:18:13.745Z",
                                 "type": "string"
                               },
                               "icon": {
@@ -15027,7 +15027,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.398Z",
+                                    "default": "2026-03-21T17:18:13.713Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -15114,7 +15114,7 @@
                                     "type": "string"
                                   },
                                   "publishedAt": {
-                                    "default": "2026-03-07T12:53:28.398Z",
+                                    "default": "2026-03-21T17:18:13.713Z",
                                     "type": "string"
                                   },
                                   "related": {}
@@ -15333,7 +15333,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.536Z",
+                          "default": "2026-03-21T17:18:13.824Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -15502,7 +15502,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.538Z",
+                          "default": "2026-03-21T17:18:13.826Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -15557,7 +15557,7 @@
                     "type": "object",
                     "properties": {
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.537Z",
+                        "default": "2026-03-21T17:18:13.826Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -15701,7 +15701,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.540Z",
+                          "default": "2026-03-21T17:18:13.827Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -16050,7 +16050,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-03-07T12:53:28.543Z",
+                            "default": "2026-03-21T17:18:13.831Z",
                             "type": "string"
                           }
                         },
@@ -16221,7 +16221,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.547Z",
+                          "default": "2026-03-21T17:18:13.835Z",
                           "type": "string"
                         }
                       },
@@ -16279,7 +16279,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:29.065Z",
+                        "default": "2026-03-21T17:18:14.328Z",
                         "type": "string"
                       }
                     },
@@ -16539,7 +16539,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.545Z",
+                          "default": "2026-03-21T17:18:13.833Z",
                           "type": "string"
                         }
                       },
@@ -16720,7 +16720,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.553Z",
+                          "default": "2026-03-21T17:18:13.840Z",
                           "type": "string"
                         }
                       },
@@ -16778,7 +16778,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.549Z",
+                        "default": "2026-03-21T17:18:13.836Z",
                         "type": "string"
                       }
                     },
@@ -16954,7 +16954,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.554Z",
+                          "default": "2026-03-21T17:18:13.841Z",
                           "type": "string"
                         }
                       },
@@ -17313,7 +17313,7 @@
                             "type": "string"
                           },
                           "publishedAt": {
-                            "default": "2026-03-07T12:53:28.558Z",
+                            "default": "2026-03-21T17:18:13.845Z",
                             "type": "string"
                           },
                           "avatar": {
@@ -17384,7 +17384,7 @@
                                 "type": "string"
                               },
                               "publishedAt": {
-                                "default": "2026-03-07T12:53:28.398Z",
+                                "default": "2026-03-21T17:18:13.713Z",
                                 "type": "string"
                               },
                               "related": {}
@@ -17581,7 +17581,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.563Z",
+                          "default": "2026-03-21T17:18:13.850Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -17652,7 +17652,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -17731,7 +17731,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.562Z",
+                        "default": "2026-03-21T17:18:13.849Z",
                         "type": "string"
                       },
                       "avatar": {}
@@ -18007,7 +18007,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.560Z",
+                          "default": "2026-03-21T17:18:13.847Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -18078,7 +18078,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -18285,7 +18285,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.565Z",
+                          "default": "2026-03-21T17:18:13.852Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -18356,7 +18356,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -18435,7 +18435,7 @@
                         "type": "string"
                       },
                       "publishedAt": {
-                        "default": "2026-03-07T12:53:28.564Z",
+                        "default": "2026-03-21T17:18:13.851Z",
                         "type": "string"
                       },
                       "avatar": {}
@@ -18621,7 +18621,7 @@
                           "type": "string"
                         },
                         "publishedAt": {
-                          "default": "2026-03-07T12:53:28.567Z",
+                          "default": "2026-03-21T17:18:13.854Z",
                           "type": "string"
                         },
                         "avatar": {
@@ -18692,7 +18692,7 @@
                               "type": "string"
                             },
                             "publishedAt": {
-                              "default": "2026-03-07T12:53:28.398Z",
+                              "default": "2026-03-21T17:18:13.713Z",
                               "type": "string"
                             },
                             "related": {}
@@ -18753,9 +18753,9 @@
         ]
       }
     },
-    "/content-types": {
+    "/content-type-builder/content-types": {
       "get": {
-        "operationId": "content-type-builder/get/content_types",
+        "operationId": "content-type-builder/get/content_type_builder_content_types",
         "parameters": [
           {
             "name": "kind",
@@ -19210,9 +19210,9 @@
         ]
       }
     },
-    "/content-types/{uid}": {
+    "/content-type-builder/content-types/{uid}": {
       "get": {
-        "operationId": "content-type-builder/get/content_types_by_uid",
+        "operationId": "content-type-builder/get/content_type_builder_content_types_by_uid",
         "parameters": [
           {
             "name": "uid",
@@ -19660,9 +19660,9 @@
         ]
       }
     },
-    "/components": {
+    "/content-type-builder/components": {
       "get": {
-        "operationId": "content-type-builder/get/components",
+        "operationId": "content-type-builder/get/content_type_builder_components",
         "parameters": [],
         "responses": {
           "200": {
@@ -20052,9 +20052,9 @@
         ]
       }
     },
-    "/components/{uid}": {
+    "/content-type-builder/components/{uid}": {
       "get": {
-        "operationId": "content-type-builder/get/components_by_uid",
+        "operationId": "content-type-builder/get/content_type_builder_components_by_uid",
         "parameters": [
           {
             "name": "uid",
@@ -20452,9 +20452,92 @@
         ]
       }
     },
-    "/": {
+    "/email": {
       "post": {
-        "operationId": "upload/post",
+        "operationId": "email/post/email",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {},
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "email"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "object",
+                "properties": {
+                  "from": {
+                    "type": "string"
+                  },
+                  "to": {
+                    "type": "string"
+                  },
+                  "cc": {
+                    "type": "string"
+                  },
+                  "bcc": {
+                    "type": "string"
+                  },
+                  "replyTo": {
+                    "type": "string"
+                  },
+                  "subject": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  },
+                  "html": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "to",
+                  "subject",
+                  "text"
+                ],
+                "additionalProperties": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/upload": {
+      "post": {
+        "operationId": "upload/post/upload",
         "parameters": [
           {
             "name": "id",
@@ -20764,9 +20847,9 @@
         ]
       }
     },
-    "/files": {
+    "/upload/files": {
       "get": {
-        "operationId": "upload/get/files",
+        "operationId": "upload/get/upload_files",
         "parameters": [
           {
             "name": "fields",
@@ -21109,9 +21192,9 @@
         ]
       }
     },
-    "/files/{id}": {
+    "/upload/files/{id}": {
       "get": {
-        "operationId": "upload/get/files_by_id",
+        "operationId": "upload/get/upload_files_by_id",
         "parameters": [
           {
             "name": "id",
@@ -21335,7 +21418,7 @@
         ]
       },
       "delete": {
-        "operationId": "upload/delete/files_by_id",
+        "operationId": "upload/delete/upload_files_by_id",
         "parameters": [
           {
             "name": "id",
@@ -21508,9 +21591,9 @@
         ]
       }
     },
-    "/locales": {
+    "/i18n/locales": {
       "get": {
-        "operationId": "i18n/get/locales",
+        "operationId": "i18n/get/i18n_locales",
         "parameters": [],
         "responses": {
           "200": {
@@ -23971,9 +24054,9 @@
         ]
       }
     },
-    "/roles/{id}": {
+    "/users-permissions/roles/{id}": {
       "get": {
-        "operationId": "users-permissions/get/roles_by_id",
+        "operationId": "users-permissions/get/users_permissions_roles_by_id",
         "parameters": [
           {
             "name": "id",
@@ -24121,9 +24204,9 @@
         ]
       }
     },
-    "/roles": {
+    "/users-permissions/roles": {
       "get": {
-        "operationId": "users-permissions/get/roles",
+        "operationId": "users-permissions/get/users_permissions_roles",
         "parameters": [],
         "responses": {
           "200": {
@@ -24264,7 +24347,7 @@
         ]
       },
       "post": {
-        "operationId": "users-permissions/post/roles",
+        "operationId": "users-permissions/post/users_permissions_roles",
         "parameters": [],
         "responses": {
           "200": {
@@ -24341,9 +24424,9 @@
         }
       }
     },
-    "/roles/{role}": {
+    "/users-permissions/roles/{role}": {
       "put": {
-        "operationId": "users-permissions/put/roles_by_role",
+        "operationId": "users-permissions/put/users_permissions_roles_by_role",
         "parameters": [
           {
             "name": "role",
@@ -24426,7 +24509,7 @@
         }
       },
       "delete": {
-        "operationId": "users-permissions/delete/roles_by_role",
+        "operationId": "users-permissions/delete/users_permissions_roles_by_role",
         "parameters": [
           {
             "name": "role",
@@ -24480,9 +24563,9 @@
         ]
       }
     },
-    "/permissions": {
+    "/users-permissions/permissions": {
       "get": {
-        "operationId": "users-permissions/get/permissions",
+        "operationId": "users-permissions/get/users_permissions_permissions",
         "parameters": [],
         "responses": {
           "200": {
