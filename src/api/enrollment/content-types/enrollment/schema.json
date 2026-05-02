@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enrollments",
+  "info": {
+    "singularName": "enrollment",
+    "pluralName": "enrollments",
+    "displayName": "Enrollment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stripeSessionId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "enrollmentStatus": {
+      "type": "enumeration",
+      "required": true,
+      "default": "active",
+      "enum": [
+        "active",
+        "expired"
+      ]
+    },
+    "amountPaid": {
+      "type": "decimal",
+      "required": true
+    },
+    "purchasedAt": {
+      "type": "datetime",
+      "required": true
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "enrollments"
+    },
+    "package": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::package.package"
+    }
+  }
+}
